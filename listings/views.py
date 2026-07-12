@@ -87,9 +87,9 @@ class ListingDetailView(generics.RetrieveUpdateDestroyAPIView):
     lookup_field = "slug"
 
     def get_queryset(self):
-        return Listing.objects.select_related("category", "school", "seller__school").prefetch_related(
-            "images"
-        )
+        return Listing.objects.select_related(
+            "category", "school", "seller__school", "seller__store"
+        ).prefetch_related("images")
 
     def retrieve(self, request, *args, **kwargs):
         instance = self.get_object()

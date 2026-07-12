@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
 from accounts.serializers import PublicSellerSerializer
+from stores.serializers import StoreBadgeSerializer
 
 from .models import Category, Favorite, Listing, ListingImage
 
@@ -66,6 +67,7 @@ class ListingDetailSerializer(serializers.ModelSerializer):
     school = serializers.CharField(source="school.name", default=None, read_only=True)
     distance_km = serializers.FloatField(read_only=True, default=None)
     is_favorited = serializers.SerializerMethodField()
+    store = serializers.SerializerMethodField()
 
     class Meta:
         model = Listing
@@ -80,6 +82,7 @@ class ListingDetailSerializer(serializers.ModelSerializer):
             "category",
             "category_slug",
             "seller",
+            "store",
             "school",
             "latitude",
             "longitude",
@@ -93,6 +96,13 @@ class ListingDetailSerializer(serializers.ModelSerializer):
             "updated_at",
         ]
         read_only_fields = ["slug", "views_count", "created_at", "updated_at"]
+
+    def get_store(self, obj):
+        """The seller's storefront badge, when they have an active one."""
+        store = getattr(obj.seller, "store", None)
+        if store is None or not store.is_active:
+            return None
+        return StoreBadgeSerializer(store, context=self.context).data
 
     def get_is_favorited(self, obj):
         request = self.context.get("request")
