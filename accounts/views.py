@@ -10,11 +10,22 @@ from .serializers import RegisterSerializer, SchoolSerializer, UserSerializer
 
 
 class SchoolListView(generics.ListAPIView):
-    queryset = School.objects.all()
+    """All institutions, optionally narrowed by ?type=, ?state= or ?search=."""
+
     serializer_class = SchoolSerializer
     permission_classes = [permissions.AllowAny]
     pagination_class = None
-    search_fields = ["name", "city"]
+    search_fields = ["name", "city", "state"]
+
+    def get_queryset(self):
+        qs = School.objects.all()
+        institution_type = self.request.query_params.get("type")
+        state = self.request.query_params.get("state")
+        if institution_type:
+            qs = qs.filter(institution_type=institution_type)
+        if state:
+            qs = qs.filter(state__iexact=state)
+        return qs
 
 
 class RegisterView(generics.CreateAPIView):

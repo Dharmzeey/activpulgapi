@@ -6,11 +6,22 @@ from django.db import models
 class School(models.Model):
     """A campus. Its coordinates are the default location for its users' listings."""
 
+    class InstitutionType(models.TextChoices):
+        UNIVERSITY = "university", "University"
+        POLYTECHNIC = "polytechnic", "Polytechnic"
+        COLLEGE_OF_EDUCATION = "college_of_education", "College of Education"
+        COLLEGE_OF_HEALTH = "college_of_health", "College of Health Sciences/Technology"
+        TECHNICAL = "technical", "Technical/Vocational College"
+        OTHER = "other", "Other institution"
+
     name = models.CharField(max_length=255, unique=True)
     slug = models.SlugField(max_length=255, unique=True)
+    institution_type = models.CharField(
+        max_length=25, choices=InstitutionType.choices, default=InstitutionType.UNIVERSITY
+    )
     city = models.CharField(max_length=120)
     state = models.CharField(max_length=120, blank=True)
-    country = models.CharField(max_length=120)
+    country = models.CharField(max_length=120, default="Nigeria")
     latitude = models.DecimalField(max_digits=9, decimal_places=6)
     longitude = models.DecimalField(max_digits=9, decimal_places=6)
 

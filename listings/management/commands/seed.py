@@ -1,3 +1,7 @@
+import json
+from pathlib import Path
+
+from django.apps import apps
 from django.core.management.base import BaseCommand
 from django.utils.text import slugify
 
@@ -21,32 +25,42 @@ CATEGORIES = [
     "Other",
 ]
 
-SCHOOLS = [
-    ("Carleton University", "Ottawa", "Ontario", "Canada", 45.3876, -75.6960),
-    ("University of Ottawa", "Ottawa", "Ontario", "Canada", 45.4231, -75.6831),
-]
+INSTITUTIONS_FILE = (
+    Path(apps.get_app_config("accounts").path) / "data" / "nigeria_institutions.json"
+)
 
 
 class Command(BaseCommand):
-    help = "Seed default categories and starter schools (idempotent)."
+    help = (
+        "Seed default categories and Nigerian institutions (idempotent). "
+        "Extend accounts/data/nigeria_institutions.json to add more schools; "
+        "coordinates are city-level and can be refined in the admin."
+    )
 
     def handle(self, *args, **options):
         for name in CATEGORIES:
             Category.objects.get_or_create(slug=slugify(name), defaults={"name": name})
-        for name, city, state, country, lat, lng in SCHOOLS:
-            School.objects.get_or_create(
-                slug=slugify(name),
+
+        institutions = json.loads(INSTITUTIONS_FILE.read_text(encoding="utf-8"))
+        created = 0
+        for row in institutions:
+            _, was_created = School.objects.get_or_create(
+                slug=slugify(row["name"]),
                 defaults={
-                    "name": name,
-                    "city": city,
-                    "state": state,
-                    "country": country,
-                    "latitude": lat,
-                    "longitude": lng,
+                    "name": row["name"],
+                    "institution_type": row["type"],
+                    "city": row["city"],
+                    "state": row["state"],
+                    "country": row.get("country", "Nigeria"),
+                    "latitude": row["lat"],
+                    "longitude": row["lng"],
                 },
             )
+            created += was_created
+
         self.stdout.write(
             self.style.SUCCESS(
-                f"Seeded. Categories: {Category.objects.count()}, Schools: {School.objects.count()}"
+                f"Seeded. Categories: {Category.objects.count()}, "
+                f"Schools: {School.objects.count()} ({created} new)"
             )
         )

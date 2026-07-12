@@ -7,7 +7,17 @@ from .models import School, User
 class SchoolSerializer(serializers.ModelSerializer):
     class Meta:
         model = School
-        fields = ["id", "name", "slug", "city", "state", "country", "latitude", "longitude"]
+        fields = [
+            "id",
+            "name",
+            "slug",
+            "institution_type",
+            "city",
+            "state",
+            "country",
+            "latitude",
+            "longitude",
+        ]
 
 
 class RegisterSerializer(serializers.ModelSerializer):

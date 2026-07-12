@@ -53,8 +53,10 @@ class ListingListCreateView(generics.ListCreateAPIView):
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     filterset_class = ListingFilter
     search_fields = ["title", "description"]
+    # No `ordering` default here: OrderingFilter would apply it after
+    # get_queryset and silently override the distance ranking. With no
+    # ?ordering= param the distance order_by (or Meta.ordering) stands.
     ordering_fields = ["price", "created_at"]
-    ordering = ["-created_at"]
 
     def get_serializer_class(self):
         return ListingDetailSerializer if self.request.method == "POST" else ListingListSerializer
