@@ -3,8 +3,40 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 
+class State(models.Model):
+    """A Nigerian state (or the FCT). Stored once, not repeated per school."""
+
+    name = models.CharField(max_length=60, unique=True)
+    slug = models.SlugField(max_length=60, unique=True)
+
+    class Meta:
+        ordering = ["name"]
+
+    def __str__(self):
+        return self.name
+
+
+class Town(models.Model):
+    """A town/city holding the coordinates shared by every campus in it."""
+
+    name = models.CharField(max_length=120)
+    state = models.ForeignKey(State, on_delete=models.CASCADE, related_name="towns")
+    latitude = models.DecimalField(max_digits=9, decimal_places=6)
+    longitude = models.DecimalField(max_digits=9, decimal_places=6)
+
+    class Meta:
+        ordering = ["name"]
+        constraints = [
+            models.UniqueConstraint(fields=["name", "state"], name="unique_town_per_state")
+        ]
+
+    def __str__(self):
+        return f"{self.name}, {self.state.name}"
+
+
 class School(models.Model):
-    """A campus. Its coordinates are the default location for its users' listings."""
+    """A campus. Location lives on its town; the town's coordinates are the
+    default location for its users' listings."""
 
     class InstitutionType(models.TextChoices):
         UNIVERSITY = "university", "University"
@@ -19,17 +51,21 @@ class School(models.Model):
     institution_type = models.CharField(
         max_length=25, choices=InstitutionType.choices, default=InstitutionType.UNIVERSITY
     )
-    city = models.CharField(max_length=120)
-    state = models.CharField(max_length=120, blank=True)
-    country = models.CharField(max_length=120, default="Nigeria")
-    latitude = models.DecimalField(max_digits=9, decimal_places=6)
-    longitude = models.DecimalField(max_digits=9, decimal_places=6)
+    town = models.ForeignKey(Town, on_delete=models.PROTECT, related_name="schools")
 
     class Meta:
         ordering = ["name"]
 
     def __str__(self):
         return self.name
+
+    @property
+    def latitude(self):
+        return self.town.latitude
+
+    @property
+    def longitude(self):
+        return self.town.longitude
 
 
 class UserManager(BaseUserManager):

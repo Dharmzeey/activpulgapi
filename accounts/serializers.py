@@ -5,6 +5,18 @@ from .models import School, User
 
 
 class SchoolSerializer(serializers.ModelSerializer):
+    """Flat shape: town/state/coords are denormalized here for clients even
+    though they live on the Town/State tables."""
+
+    city = serializers.CharField(source="town.name", read_only=True)
+    state = serializers.CharField(source="town.state.name", read_only=True)
+    latitude = serializers.DecimalField(
+        source="town.latitude", max_digits=9, decimal_places=6, read_only=True
+    )
+    longitude = serializers.DecimalField(
+        source="town.longitude", max_digits=9, decimal_places=6, read_only=True
+    )
+
     class Meta:
         model = School
         fields = [
@@ -14,7 +26,6 @@ class SchoolSerializer(serializers.ModelSerializer):
             "institution_type",
             "city",
             "state",
-            "country",
             "latitude",
             "longitude",
         ]

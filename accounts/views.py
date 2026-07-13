@@ -15,16 +15,16 @@ class SchoolListView(generics.ListAPIView):
     serializer_class = SchoolSerializer
     permission_classes = [permissions.AllowAny]
     pagination_class = None
-    search_fields = ["name", "city", "state"]
+    search_fields = ["name", "town__name", "town__state__name"]
 
     def get_queryset(self):
-        qs = School.objects.all()
+        qs = School.objects.select_related("town__state")
         institution_type = self.request.query_params.get("type")
         state = self.request.query_params.get("state")
         if institution_type:
             qs = qs.filter(institution_type=institution_type)
         if state:
-            qs = qs.filter(state__iexact=state)
+            qs = qs.filter(town__state__name__iexact=state)
         return qs
 
 

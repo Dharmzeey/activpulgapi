@@ -1,14 +1,29 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
-from .models import School, User
+from .models import School, State, Town, User
+
+
+@admin.register(State)
+class StateAdmin(admin.ModelAdmin):
+    list_display = ["name"]
+    prepopulated_fields = {"slug": ("name",)}
+
+
+@admin.register(Town)
+class TownAdmin(admin.ModelAdmin):
+    list_display = ["name", "state", "latitude", "longitude"]
+    list_filter = ["state"]
+    search_fields = ["name"]
 
 
 @admin.register(School)
 class SchoolAdmin(admin.ModelAdmin):
-    list_display = ["name", "city", "country"]
+    list_display = ["name", "institution_type", "town"]
+    list_filter = ["institution_type", "town__state"]
     prepopulated_fields = {"slug": ("name",)}
-    search_fields = ["name", "city"]
+    search_fields = ["name", "town__name"]
+    autocomplete_fields = ["town"]
 
 
 @admin.register(User)
