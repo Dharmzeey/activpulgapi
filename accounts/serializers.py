@@ -2,6 +2,7 @@ from django.contrib.auth.password_validation import validate_password
 from rest_framework import serializers
 
 from .models import School, User
+from .otp import normalize_phone
 
 
 class SchoolSerializer(serializers.ModelSerializer):
@@ -33,6 +34,7 @@ class SchoolSerializer(serializers.ModelSerializer):
 
 class RegisterSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True, validators=[validate_password])
+    phone = serializers.CharField()
     school = serializers.SlugRelatedField(
         slug_field="slug", queryset=School.objects.all(), required=False, allow_null=True
     )
@@ -40,6 +42,18 @@ class RegisterSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ["email", "password", "first_name", "last_name", "phone", "school"]
+
+    def validate_phone(self, value):
+        phone = normalize_phone(value)
+        if phone is None:
+            raise serializers.ValidationError(
+                "Enter a valid Nigerian WhatsApp number, e.g. 0803 123 4567."
+            )
+        if User.objects.filter(phone=phone).exists():
+            raise serializers.ValidationError(
+                "An account already exists with this WhatsApp number."
+            )
+        return phone
 
     def create(self, validated_data):
         return User.objects.create_user(**validated_data)
@@ -69,9 +83,29 @@ class UserSerializer(serializers.ModelSerializer):
             "latitude",
             "longitude",
             "is_email_verified",
+            "is_phone_verified",
             "date_joined",
         ]
-        read_only_fields = ["email", "is_email_verified", "date_joined"]
+        read_only_fields = ["email", "is_email_verified", "is_phone_verified", "date_joined"]
+
+    def validate_phone(self, value):
+        phone = normalize_phone(value)
+        if phone is None:
+            raise serializers.ValidationError(
+                "Enter a valid Nigerian WhatsApp number, e.g. 0803 123 4567."
+            )
+        if User.objects.exclude(pk=self.instance.pk).filter(phone=phone).exists():
+            raise serializers.ValidationError(
+                "An account already exists with this WhatsApp number."
+            )
+        return phone
+
+    def update(self, instance, validated_data):
+        # Changing the number invalidates the previous verification.
+        new_phone = validated_data.get("phone")
+        if new_phone and new_phone != instance.phone:
+            instance.is_phone_verified = False
+        return super().update(instance, validated_data)
 
 
 class PublicSellerSerializer(serializers.ModelSerializer):

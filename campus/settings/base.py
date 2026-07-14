@@ -1,8 +1,9 @@
-"""
-Django settings for campus project.
+"""Shared settings for all environments.
 
-Environment-driven configuration: secrets and deploy-specific values live in
-a .env file (see .env.example) and are read with django-environ.
+Environment selection:
+  manage.py defaults to campus.settings.development
+  wsgi/asgi default to campus.settings.production
+Override with DJANGO_SETTINGS_MODULE either way.
 """
 
 from datetime import timedelta
@@ -10,7 +11,8 @@ from pathlib import Path
 
 import environ
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+# settings/base.py -> campus/ -> project root
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 env = environ.Env(
     DEBUG=(bool, False),
@@ -20,7 +22,6 @@ env = environ.Env(
 environ.Env.read_env(BASE_DIR / ".env")
 
 SECRET_KEY = env("SECRET_KEY")
-DEBUG = env("DEBUG")
 ALLOWED_HOSTS = env("ALLOWED_HOSTS")
 
 
@@ -75,7 +76,7 @@ TEMPLATES = [
 WSGI_APPLICATION = "campus.wsgi.application"
 
 
-# Database — SQLite for local dev; set DATABASE_URL for Postgres in production.
+# Database
 
 DATABASES = {
     "default": env.db_url("DATABASE_URL", default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}"),
@@ -112,7 +113,7 @@ REST_FRAMEWORK = {
     "PAGE_SIZE": 20,
     "DEFAULT_THROTTLE_RATES": {
         "auth": "10/min",
-        "auth_burst": "30/hour",
+        "otp": "4/min",
     },
 }
 
@@ -125,26 +126,34 @@ SIMPLE_JWT = {
 }
 
 
-# CORS — explicit origin allowlist; credentials are allowed for cookie/refresh flows.
+# CORS
 
 CORS_ALLOWED_ORIGINS = env("CORS_ALLOWED_ORIGINS")
 CORS_ALLOW_CREDENTIALS = True
 
 
-# Security hardening (active when DEBUG is off)
-
-if not DEBUG:
-    SECURE_SSL_REDIRECT = True
-    SECURE_HSTS_SECONDS = 31536000
-    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-    SECURE_HSTS_PRELOAD = True
-    SESSION_COOKIE_SECURE = True
-    CSRF_COOKIE_SECURE = True
-    SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+# Security defaults common to every environment
 
 SECURE_CONTENT_TYPE_NOSNIFF = True
 X_FRAME_OPTIONS = "DENY"
 SECURE_REFERRER_POLICY = "strict-origin-when-cross-origin"
+
+
+# WhatsApp verification
+# Backend "console" prints codes (development); "meta" sends a template
+# message through the WhatsApp Cloud API (production).
+
+WHATSAPP_BACKEND = env("WHATSAPP_BACKEND", default="console")
+WHATSAPP_ACCESS_TOKEN = env("WHATSAPP_ACCESS_TOKEN", default="")
+WHATSAPP_PHONE_NUMBER_ID = env("WHATSAPP_PHONE_NUMBER_ID", default="")
+WHATSAPP_TEMPLATE = env("WHATSAPP_TEMPLATE", default="campscrow_verify")
+OTP_TTL_MINUTES = 10
+OTP_MAX_ATTEMPTS = 5
+OTP_RESEND_COOLDOWN_SECONDS = 60
+
+# When True, users must verify their WhatsApp number before they can publish
+# listings or open a storefront. Browsing is unaffected.
+REQUIRE_PHONE_VERIFICATION = True
 
 
 # Internationalization

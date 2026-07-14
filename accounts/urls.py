@@ -10,5 +10,7 @@ urlpatterns = [
     path("refresh/", views.RefreshView.as_view(), name="refresh"),
     path("logout/", views.LogoutView.as_view(), name="logout"),
     path("me/", views.MeView.as_view(), name="me"),
+    path("verify-phone/request/", views.RequestPhoneCodeView.as_view(), name="verify-phone-request"),
+    path("verify-phone/confirm/", views.ConfirmPhoneCodeView.as_view(), name="verify-phone-confirm"),
     path("schools/", views.SchoolListView.as_view(), name="schools"),
 ]
