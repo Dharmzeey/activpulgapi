@@ -2,7 +2,7 @@ from django.contrib.auth.password_validation import validate_password
 from rest_framework import serializers
 
 from .models import School, User
-from .otp import normalize_phone
+from .validation import canonical_email, is_disposable_email, normalize_phone
 
 
 class SchoolSerializer(serializers.ModelSerializer):
@@ -42,6 +42,18 @@ class RegisterSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ["email", "password", "first_name", "last_name", "phone", "school"]
+
+    def validate_email(self, value):
+        email = value.lower()
+        if is_disposable_email(email):
+            raise serializers.ValidationError(
+                "Disposable email addresses aren't allowed. Use a real mailbox."
+            )
+        # Compare alias-collapsed identities so name+tag@gmail.com can't
+        # re-register an existing mailbox.
+        if User.objects.filter(canonical_email=canonical_email(email)).exists():
+            raise serializers.ValidationError("An account with this email already exists.")
+        return email
 
     def validate_phone(self, value):
         phone = normalize_phone(value)

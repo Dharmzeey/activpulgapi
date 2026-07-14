@@ -5,10 +5,13 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
-from .models import School
-from .otp import OTPError, confirm_code, issue_code
+from .google import GoogleAuthError, verify_id_token
+from .models import School, User
 from .serializers import RegisterSerializer, SchoolSerializer, UserSerializer
-from .whatsapp import WhatsAppError, send_verification_code
+
+# Hidden form field that humans never see or fill. Submissions carrying a
+# value are bots; they get an unspecific error so nothing is learnable.
+HONEYPOT_FIELD = "website"
 
 
 class SchoolListView(generics.ListAPIView):
@@ -30,22 +33,71 @@ class SchoolListView(generics.ListAPIView):
         return qs
 
 
-class RegisterView(generics.CreateAPIView):
-    serializer_class = RegisterSerializer
+class GoogleAuthView(APIView):
+    """Sign in (or up) with a Google ID token.
+
+    Google accounts are hard to mass-create, which is the platform's main
+    defence against throwaway signups — there is no open password signup.
+    """
+
     permission_classes = [permissions.AllowAny]
     throttle_classes = [ScopedRateThrottle]
     throttle_scope = "auth"
 
+    def post(self, request):
+        try:
+            claims = verify_id_token(request.data.get("credential"))
+        except GoogleAuthError as exc:
+            return Response({"detail": str(exc)}, status=status.HTTP_400_BAD_REQUEST)
+
+        email = claims["email"].lower()
+        user = User.objects.filter(email=email).first()
+        created = user is None
+        if created:
+            user = User(
+                email=email,
+                first_name=claims.get("given_name", ""),
+                last_name=claims.get("family_name", ""),
+                is_email_verified=True,
+            )
+            user.set_unusable_password()
+            user.save()
+        elif not user.is_active:
+            return Response(
+                {"detail": "This account is disabled."}, status=status.HTTP_403_FORBIDDEN
+            )
+
+        refresh = RefreshToken.for_user(user)
+        return Response(
+            {
+                "user": UserSerializer(user).data,
+                "access": str(refresh.access_token),
+                "refresh": str(refresh),
+                "created": created,
+            },
+            status=status.HTTP_201_CREATED if created else status.HTTP_200_OK,
+        )
+
+
+class RegisterView(generics.CreateAPIView):
+    """Email/password signup, defended against throwaway and bot accounts:
+    disposable-domain blocklist, alias-collapsed email uniqueness, honeypot,
+    strict per-IP rate limit, and Django's password validators."""
+
+    serializer_class = RegisterSerializer
+    permission_classes = [permissions.AllowAny]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "register"
+
     def create(self, request, *args, **kwargs):
+        if request.data.get(HONEYPOT_FIELD):
+            return Response(
+                {"detail": "Registration failed. Please try again."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
-        # Kick off WhatsApp verification right away; delivery problems are
-        # not fatal — the user can request a resend from the verify screen.
-        try:
-            send_verification_code(user.phone, issue_code(user))
-        except (OTPError, WhatsAppError):
-            pass
         refresh = RefreshToken.for_user(user)
         return Response(
             {
@@ -58,6 +110,8 @@ class RegisterView(generics.CreateAPIView):
 
 
 class LoginView(TokenObtainPairView):
+    """Password login for pre-existing/admin accounts; no open signup exists."""
+
     throttle_classes = [ScopedRateThrottle]
     throttle_scope = "auth"
 
@@ -86,49 +140,8 @@ class LogoutView(APIView):
         return Response(status=status.HTTP_205_RESET_CONTENT)
 
 
-class RequestPhoneCodeView(APIView):
-    """Send (or resend) a verification code to the user's WhatsApp number."""
-
-    permission_classes = [permissions.IsAuthenticated]
-    throttle_classes = [ScopedRateThrottle]
-    throttle_scope = "otp"
-
-    def post(self, request):
-        user = request.user
-        if user.is_phone_verified:
-            return Response({"detail": "Your number is already verified."})
-        if not user.phone:
-            return Response(
-                {"detail": "Add a WhatsApp number to your profile first."},
-                status=status.HTTP_400_BAD_REQUEST,
-            )
-        try:
-            send_verification_code(user.phone, issue_code(user))
-        except OTPError as exc:
-            return Response({"detail": exc.message}, status=status.HTTP_429_TOO_MANY_REQUESTS)
-        except WhatsAppError:
-            return Response(
-                {"detail": "We couldn't reach WhatsApp. Try again shortly."},
-                status=status.HTTP_502_BAD_GATEWAY,
-            )
-        return Response({"detail": "Code sent. Check your WhatsApp."})
-
-
-class ConfirmPhoneCodeView(APIView):
-    permission_classes = [permissions.IsAuthenticated]
-    throttle_classes = [ScopedRateThrottle]
-    throttle_scope = "otp"
-
-    def post(self, request):
-        try:
-            confirm_code(request.user, request.data.get("code"))
-        except OTPError as exc:
-            return Response({"detail": exc.message}, status=status.HTTP_400_BAD_REQUEST)
-        return Response({"detail": "WhatsApp number verified.", "is_phone_verified": True})
-
-
 class MeView(generics.RetrieveUpdateAPIView):
-    """Profile of the authenticated user; PATCH updates location, school, names."""
+    """Profile of the authenticated user; PATCH updates phone, location, school."""
 
     serializer_class = UserSerializer
     permission_classes = [permissions.IsAuthenticated]

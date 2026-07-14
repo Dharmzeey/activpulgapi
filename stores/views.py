@@ -2,7 +2,7 @@ from django.db.models import Count, Q
 from rest_framework import generics, permissions, status
 from rest_framework.response import Response
 
-from accounts.permissions import PhoneVerifiedForWrites
+from accounts.permissions import HasContactPhoneForWrites
 from listings.models import Listing
 
 from .models import Store
@@ -50,7 +50,7 @@ class MyStoreView(generics.RetrieveUpdateDestroyAPIView):
 
 class StoreCreateView(generics.CreateAPIView):
     serializer_class = StoreSerializer
-    permission_classes = [permissions.IsAuthenticated, PhoneVerifiedForWrites]
+    permission_classes = [permissions.IsAuthenticated, HasContactPhoneForWrites]
 
     def create(self, request, *args, **kwargs):
         if Store.objects.filter(owner=request.user).exists():

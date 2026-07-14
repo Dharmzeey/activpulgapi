@@ -20,10 +20,8 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
-# WhatsApp Cloud API delivery; requires WHATSAPP_ACCESS_TOKEN and
-# WHATSAPP_PHONE_NUMBER_ID in the environment.
-WHATSAPP_BACKEND = env("WHATSAPP_BACKEND", default="meta")
-REQUIRE_PHONE_VERIFICATION = True
+if not env("GOOGLE_CLIENT_ID", default=""):
+    raise RuntimeError("GOOGLE_CLIENT_ID must be set in production (Google-only sign-in)")
 
 LOGGING = {
     "version": 1,

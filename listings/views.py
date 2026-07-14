@@ -4,7 +4,7 @@ from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from accounts.permissions import PhoneVerifiedForWrites
+from accounts.permissions import HasContactPhoneForWrites
 
 from .filters import ListingFilter
 from .geo import with_distance
@@ -52,7 +52,7 @@ class ListingListCreateView(generics.ListCreateAPIView):
     lat, lng, radius_km, ordering (distance|price|-price|-created_at).
     """
 
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly, PhoneVerifiedForWrites]
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly, HasContactPhoneForWrites]
     filterset_class = ListingFilter
     search_fields = ["title", "description"]
     # No `ordering` default here: OrderingFilter would apply it after

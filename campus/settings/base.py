@@ -113,7 +113,7 @@ REST_FRAMEWORK = {
     "PAGE_SIZE": 20,
     "DEFAULT_THROTTLE_RATES": {
         "auth": "10/min",
-        "otp": "4/min",
+        "register": "5/hour",
     },
 }
 
@@ -139,21 +139,9 @@ X_FRAME_OPTIONS = "DENY"
 SECURE_REFERRER_POLICY = "strict-origin-when-cross-origin"
 
 
-# WhatsApp verification
-# Backend "console" prints codes (development); "meta" sends a template
-# message through the WhatsApp Cloud API (production).
-
-WHATSAPP_BACKEND = env("WHATSAPP_BACKEND", default="console")
-WHATSAPP_ACCESS_TOKEN = env("WHATSAPP_ACCESS_TOKEN", default="")
-WHATSAPP_PHONE_NUMBER_ID = env("WHATSAPP_PHONE_NUMBER_ID", default="")
-WHATSAPP_TEMPLATE = env("WHATSAPP_TEMPLATE", default="campscrow_verify")
-OTP_TTL_MINUTES = 10
-OTP_MAX_ATTEMPTS = 5
-OTP_RESEND_COOLDOWN_SECONDS = 60
-
-# When True, users must verify their WhatsApp number before they can publish
-# listings or open a storefront. Browsing is unaffected.
-REQUIRE_PHONE_VERIFICATION = True
+# Google Sign-In: the only public signup path. Google accounts are hard to
+# mass-create, which is the main defence against throwaway/bot accounts.
+GOOGLE_CLIENT_ID = env("GOOGLE_CLIENT_ID", default="")
 
 
 # Internationalization

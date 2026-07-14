@@ -1,4 +1,3 @@
-from django.conf import settings
 from django.contrib.auth.base_user import BaseUserManager
 from django.contrib.auth.models import AbstractUser
 from django.db import models
@@ -98,6 +97,9 @@ class User(AbstractUser):
 
     username = None
     email = models.EmailField(unique=True)
+    # Alias-collapsed identity (plus-tags stripped, gmail dots removed) so one
+    # mailbox cannot register many accounts. Maintained in save().
+    canonical_email = models.EmailField(unique=True, null=True, editable=False)
     # WhatsApp number in E.164 (+234...). One account per number: this is the
     # anti-bot anchor, verified by OTP before the user can publish.
     phone = models.CharField(max_length=20, unique=True, null=True, blank=True)
@@ -118,23 +120,13 @@ class User(AbstractUser):
         return self.email
 
     def save(self, *args, **kwargs):
+        from .validation import canonical_email
+
+        if self.email:
+            self.canonical_email = canonical_email(self.email)
         if self.phone == "":
             self.phone = None
         if self.latitude is None and self.school_id:
             self.latitude = self.school.latitude
             self.longitude = self.school.longitude
         super().save(*args, **kwargs)
-
-
-class PhoneOTP(models.Model):
-    """One pending WhatsApp verification code per user, stored hashed."""
-
-    user = models.OneToOneField(
-        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="phone_otp"
-    )
-    code_hash = models.CharField(max_length=128)
-    attempts = models.PositiveSmallIntegerField(default=0)
-    created_at = models.DateTimeField(auto_now=True)
-
-    def __str__(self):
-        return f"OTP for {self.user_id}"
