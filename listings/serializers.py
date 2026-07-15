@@ -68,6 +68,7 @@ class ListingDetailSerializer(serializers.ModelSerializer):
     distance_km = serializers.FloatField(read_only=True, default=None)
     is_favorited = serializers.SerializerMethodField()
     store = serializers.SerializerMethodField()
+    seller_whatsapp = serializers.SerializerMethodField()
 
     class Meta:
         model = Listing
@@ -82,6 +83,7 @@ class ListingDetailSerializer(serializers.ModelSerializer):
             "category",
             "category_slug",
             "seller",
+            "seller_whatsapp",
             "store",
             "school",
             "latitude",
@@ -96,6 +98,14 @@ class ListingDetailSerializer(serializers.ModelSerializer):
             "updated_at",
         ]
         read_only_fields = ["slug", "views_count", "created_at", "updated_at"]
+
+    def get_seller_whatsapp(self, obj):
+        """Chat contact for the buy CTA: the store's number if it set one,
+        otherwise the seller's registered WhatsApp number."""
+        store = getattr(obj.seller, "store", None)
+        if store is not None and store.is_active and store.whatsapp:
+            return store.whatsapp
+        return obj.seller.phone
 
     def get_store(self, obj):
         """The seller's storefront badge, when they have an active one."""
