@@ -1,8 +1,8 @@
 """Shared settings for all environments.
 
 Environment selection:
-  manage.py defaults to campus.settings.development
-  wsgi/asgi default to campus.settings.production
+  manage.py defaults to activplug.settings.development
+  wsgi/asgi default to activplug.settings.production
 Override with DJANGO_SETTINGS_MODULE either way.
 """
 
@@ -56,7 +56,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "campus.urls"
+ROOT_URLCONF = "activplug.urls"
 
 TEMPLATES = [
     {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "campus.wsgi.application"
+WSGI_APPLICATION = "activplug.wsgi.application"
 
 
 # Database
