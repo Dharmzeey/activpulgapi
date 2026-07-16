@@ -1,8 +1,7 @@
-__pycache__
-*.sqlite3
-*.pyc
+__pycache__/
+*.py[cod]
 .env
-develpoment.py
-media
-migrations
-roughwork.txt
+db.sqlite3
+/media/
+/staticfiles/
+.vscode/

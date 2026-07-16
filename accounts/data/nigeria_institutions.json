@@ -1,0 +1,3794 @@
+[
+ {
+  "name": "University of Lagos",
+  "type": "university",
+  "city": "Lagos (Akoka)",
+  "state": "Lagos",
+  "lat": 6.5158,
+  "lng": 3.3898
+ },
+ {
+  "name": "University of Ibadan",
+  "type": "university",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.4443,
+  "lng": 3.8965
+ },
+ {
+  "name": "Ahmadu Bello University",
+  "type": "university",
+  "city": "Zaria",
+  "state": "Kaduna",
+  "lat": 11.1518,
+  "lng": 7.6543
+ },
+ {
+  "name": "University of Nigeria, Nsukka",
+  "type": "university",
+  "city": "Nsukka",
+  "state": "Enugu",
+  "lat": 6.8567,
+  "lng": 7.3958
+ },
+ {
+  "name": "Obafemi Awolowo University",
+  "type": "university",
+  "city": "Ile-Ife",
+  "state": "Osun",
+  "lat": 7.5181,
+  "lng": 4.5284
+ },
+ {
+  "name": "University of Benin",
+  "type": "university",
+  "city": "Benin City",
+  "state": "Edo",
+  "lat": 6.399,
+  "lng": 5.6099
+ },
+ {
+  "name": "University of Port Harcourt",
+  "type": "university",
+  "city": "Port Harcourt",
+  "state": "Rivers",
+  "lat": 4.9006,
+  "lng": 6.9188
+ },
+ {
+  "name": "University of Ilorin",
+  "type": "university",
+  "city": "Ilorin",
+  "state": "Kwara",
+  "lat": 8.4799,
+  "lng": 4.6753
+ },
+ {
+  "name": "Bayero University Kano",
+  "type": "university",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 11.9789,
+  "lng": 8.4744
+ },
+ {
+  "name": "Usmanu Danfodiyo University",
+  "type": "university",
+  "city": "Sokoto",
+  "state": "Sokoto",
+  "lat": 13.0293,
+  "lng": 5.2432
+ },
+ {
+  "name": "University of Maiduguri",
+  "type": "university",
+  "city": "Maiduguri",
+  "state": "Borno",
+  "lat": 11.8036,
+  "lng": 13.1965
+ },
+ {
+  "name": "University of Abuja",
+  "type": "university",
+  "city": "Abuja",
+  "state": "FCT",
+  "lat": 8.9807,
+  "lng": 7.1806
+ },
+ {
+  "name": "University of Calabar",
+  "type": "university",
+  "city": "Calabar",
+  "state": "Cross River",
+  "lat": 4.9518,
+  "lng": 8.3417
+ },
+ {
+  "name": "University of Uyo",
+  "type": "university",
+  "city": "Uyo",
+  "state": "Akwa Ibom",
+  "lat": 5.0377,
+  "lng": 7.9128
+ },
+ {
+  "name": "University of Jos",
+  "type": "university",
+  "city": "Jos",
+  "state": "Plateau",
+  "lat": 9.9527,
+  "lng": 8.892
+ },
+ {
+  "name": "Nnamdi Azikiwe University",
+  "type": "university",
+  "city": "Awka",
+  "state": "Anambra",
+  "lat": 6.245,
+  "lng": 7.1153
+ },
+ {
+  "name": "Federal University of Technology, Akure",
+  "type": "university",
+  "city": "Akure",
+  "state": "Ondo",
+  "lat": 7.3055,
+  "lng": 5.1372
+ },
+ {
+  "name": "Federal University of Technology, Minna",
+  "type": "university",
+  "city": "Minna",
+  "state": "Niger",
+  "lat": 9.6535,
+  "lng": 6.4841
+ },
+ {
+  "name": "Federal University of Technology, Owerri",
+  "type": "university",
+  "city": "Owerri",
+  "state": "Imo",
+  "lat": 5.3873,
+  "lng": 6.993
+ },
+ {
+  "name": "Federal University of Agriculture, Abeokuta",
+  "type": "university",
+  "city": "Abeokuta",
+  "state": "Ogun",
+  "lat": 7.2277,
+  "lng": 3.4407
+ },
+ {
+  "name": "Michael Okpara University of Agriculture",
+  "type": "university",
+  "city": "Umudike",
+  "state": "Abia",
+  "lat": 5.477,
+  "lng": 7.5451
+ },
+ {
+  "name": "Federal University Oye-Ekiti",
+  "type": "university",
+  "city": "Oye-Ekiti",
+  "state": "Ekiti",
+  "lat": 7.7969,
+  "lng": 5.3306
+ },
+ {
+  "name": "Federal University Lokoja",
+  "type": "university",
+  "city": "Lokoja",
+  "state": "Kogi",
+  "lat": 7.8023,
+  "lng": 6.7333
+ },
+ {
+  "name": "Federal University Dutse",
+  "type": "university",
+  "city": "Dutse",
+  "state": "Jigawa",
+  "lat": 11.7594,
+  "lng": 9.3503
+ },
+ {
+  "name": "Federal University Birnin Kebbi",
+  "type": "university",
+  "city": "Birnin Kebbi",
+  "state": "Kebbi",
+  "lat": 12.4539,
+  "lng": 4.1975
+ },
+ {
+  "name": "Federal University Wukari",
+  "type": "university",
+  "city": "Wukari",
+  "state": "Taraba",
+  "lat": 7.8704,
+  "lng": 9.777
+ },
+ {
+  "name": "Federal University Otuoke",
+  "type": "university",
+  "city": "Otuoke",
+  "state": "Bayelsa",
+  "lat": 4.7906,
+  "lng": 6.3247
+ },
+ {
+  "name": "Niger Delta University",
+  "type": "university",
+  "city": "Amassoma",
+  "state": "Bayelsa",
+  "lat": 4.9739,
+  "lng": 6.113
+ },
+ {
+  "name": "Lagos State University",
+  "type": "university",
+  "city": "Ojo",
+  "state": "Lagos",
+  "lat": 6.467,
+  "lng": 3.2003
+ },
+ {
+  "name": "Kwara State University",
+  "type": "university",
+  "city": "Malete",
+  "state": "Kwara",
+  "lat": 8.7118,
+  "lng": 4.4763
+ },
+ {
+  "name": "Delta State University, Abraka",
+  "type": "university",
+  "city": "Abraka",
+  "state": "Delta",
+  "lat": 5.79,
+  "lng": 6.1
+ },
+ {
+  "name": "Rivers State University",
+  "type": "university",
+  "city": "Port Harcourt",
+  "state": "Rivers",
+  "lat": 4.8007,
+  "lng": 6.9784
+ },
+ {
+  "name": "Ekiti State University",
+  "type": "university",
+  "city": "Ado-Ekiti",
+  "state": "Ekiti",
+  "lat": 7.6486,
+  "lng": 5.2596
+ },
+ {
+  "name": "Enugu State University of Science and Technology",
+  "type": "university",
+  "city": "Enugu",
+  "state": "Enugu",
+  "lat": 6.4238,
+  "lng": 7.5049
+ },
+ {
+  "name": "Imo State University",
+  "type": "university",
+  "city": "Owerri",
+  "state": "Imo",
+  "lat": 5.506,
+  "lng": 7.043
+ },
+ {
+  "name": "Ambrose Alli University",
+  "type": "university",
+  "city": "Ekpoma",
+  "state": "Edo",
+  "lat": 6.7405,
+  "lng": 6.1395
+ },
+ {
+  "name": "Abia State University",
+  "type": "university",
+  "city": "Uturu",
+  "state": "Abia",
+  "lat": 5.821,
+  "lng": 7.421
+ },
+ {
+  "name": "Ebonyi State University",
+  "type": "university",
+  "city": "Abakaliki",
+  "state": "Ebonyi",
+  "lat": 6.3249,
+  "lng": 8.1137
+ },
+ {
+  "name": "Benue State University",
+  "type": "university",
+  "city": "Makurdi",
+  "state": "Benue",
+  "lat": 7.7322,
+  "lng": 8.5391
+ },
+ {
+  "name": "Abubakar Tafawa Balewa University",
+  "type": "university",
+  "city": "Bauchi",
+  "state": "Bauchi",
+  "lat": 10.2827,
+  "lng": 9.7803
+ },
+ {
+  "name": "Ladoke Akintola University of Technology",
+  "type": "university",
+  "city": "Ogbomoso",
+  "state": "Oyo",
+  "lat": 8.1335,
+  "lng": 4.2407
+ },
+ {
+  "name": "Olabisi Onabanjo University",
+  "type": "university",
+  "city": "Ago-Iwoye",
+  "state": "Ogun",
+  "lat": 6.942,
+  "lng": 3.918
+ },
+ {
+  "name": "Osun State University",
+  "type": "university",
+  "city": "Osogbo",
+  "state": "Osun",
+  "lat": 7.7827,
+  "lng": 4.5418
+ },
+ {
+  "name": "Nasarawa State University",
+  "type": "university",
+  "city": "Keffi",
+  "state": "Nasarawa",
+  "lat": 8.8464,
+  "lng": 7.8733
+ },
+ {
+  "name": "Gombe State University",
+  "type": "university",
+  "city": "Gombe",
+  "state": "Gombe",
+  "lat": 10.2897,
+  "lng": 11.1673
+ },
+ {
+  "name": "Umaru Musa Yar'adua University",
+  "type": "university",
+  "city": "Katsina",
+  "state": "Katsina",
+  "lat": 12.9908,
+  "lng": 7.6018
+ },
+ {
+  "name": "Modibbo Adama University",
+  "type": "university",
+  "city": "Yola",
+  "state": "Adamawa",
+  "lat": 9.3265,
+  "lng": 12.3984
+ },
+ {
+  "name": "Covenant University",
+  "type": "university",
+  "city": "Ota",
+  "state": "Ogun",
+  "lat": 6.6726,
+  "lng": 3.158
+ },
+ {
+  "name": "Babcock University",
+  "type": "university",
+  "city": "Ilishan-Remo",
+  "state": "Ogun",
+  "lat": 6.892,
+  "lng": 3.709
+ },
+ {
+  "name": "Afe Babalola University",
+  "type": "university",
+  "city": "Ado-Ekiti",
+  "state": "Ekiti",
+  "lat": 7.6076,
+  "lng": 5.3059
+ },
+ {
+  "name": "American University of Nigeria",
+  "type": "university",
+  "city": "Yola",
+  "state": "Adamawa",
+  "lat": 9.2035,
+  "lng": 12.4664
+ },
+ {
+  "name": "Tai Solarin University of Education",
+  "type": "university",
+  "city": "Ijagun, Ijebu-Ode",
+  "state": "Ogun",
+  "lat": 6.82,
+  "lng": 3.92
+ },
+ {
+  "name": "Yaba College of Technology",
+  "type": "polytechnic",
+  "city": "Lagos (Yaba)",
+  "state": "Lagos",
+  "lat": 6.5177,
+  "lng": 3.3746
+ },
+ {
+  "name": "Kaduna Polytechnic",
+  "type": "polytechnic",
+  "city": "Kaduna",
+  "state": "Kaduna",
+  "lat": 10.5105,
+  "lng": 7.4165
+ },
+ {
+  "name": "Auchi Polytechnic",
+  "type": "polytechnic",
+  "city": "Auchi",
+  "state": "Edo",
+  "lat": 7.0679,
+  "lng": 6.2676
+ },
+ {
+  "name": "Federal Polytechnic Ilaro",
+  "type": "polytechnic",
+  "city": "Ilaro",
+  "state": "Ogun",
+  "lat": 6.889,
+  "lng": 3.0139
+ },
+ {
+  "name": "Federal Polytechnic Nekede",
+  "type": "polytechnic",
+  "city": "Nekede, Owerri",
+  "state": "Imo",
+  "lat": 5.432,
+  "lng": 7.027
+ },
+ {
+  "name": "Federal Polytechnic Ado-Ekiti",
+  "type": "polytechnic",
+  "city": "Ado-Ekiti",
+  "state": "Ekiti",
+  "lat": 7.6027,
+  "lng": 5.2478
+ },
+ {
+  "name": "Federal Polytechnic Bida",
+  "type": "polytechnic",
+  "city": "Bida",
+  "state": "Niger",
+  "lat": 9.0833,
+  "lng": 6.0167
+ },
+ {
+  "name": "Federal Polytechnic Oko",
+  "type": "polytechnic",
+  "city": "Oko",
+  "state": "Anambra",
+  "lat": 6.05,
+  "lng": 7.08
+ },
+ {
+  "name": "The Polytechnic, Ibadan",
+  "type": "polytechnic",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.434,
+  "lng": 3.893
+ },
+ {
+  "name": "Lagos State Polytechnic (LASUSTECH)",
+  "type": "polytechnic",
+  "city": "Ikorodu",
+  "state": "Lagos",
+  "lat": 6.6431,
+  "lng": 3.5088
+ },
+ {
+  "name": "Kano State Polytechnic",
+  "type": "polytechnic",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.514
+ },
+ {
+  "name": "Rufus Giwa Polytechnic",
+  "type": "polytechnic",
+  "city": "Owo",
+  "state": "Ondo",
+  "lat": 7.1962,
+  "lng": 5.5876
+ },
+ {
+  "name": "Osun State Polytechnic, Iree",
+  "type": "polytechnic",
+  "city": "Iree",
+  "state": "Osun",
+  "lat": 7.87,
+  "lng": 4.72
+ },
+ {
+  "name": "Moshood Abiola Polytechnic",
+  "type": "polytechnic",
+  "city": "Abeokuta",
+  "state": "Ogun",
+  "lat": 7.13,
+  "lng": 3.35
+ },
+ {
+  "name": "Institute of Management and Technology, Enugu",
+  "type": "polytechnic",
+  "city": "Enugu",
+  "state": "Enugu",
+  "lat": 6.4402,
+  "lng": 7.4941
+ },
+ {
+  "name": "Federal Polytechnic Mubi",
+  "type": "polytechnic",
+  "city": "Mubi",
+  "state": "Adamawa",
+  "lat": 10.2686,
+  "lng": 13.2646
+ },
+ {
+  "name": "Delta State Polytechnic, Ogwashi-Uku",
+  "type": "polytechnic",
+  "city": "Ogwashi-Uku",
+  "state": "Delta",
+  "lat": 6.1786,
+  "lng": 6.5194
+ },
+ {
+  "name": "Adeyemi Federal University of Education",
+  "type": "college_of_education",
+  "city": "Ondo",
+  "state": "Ondo",
+  "lat": 7.093,
+  "lng": 4.835
+ },
+ {
+  "name": "Federal College of Education, Zaria",
+  "type": "college_of_education",
+  "city": "Zaria",
+  "state": "Kaduna",
+  "lat": 11.085,
+  "lng": 7.72
+ },
+ {
+  "name": "Federal College of Education, Kano",
+  "type": "college_of_education",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 11.9964,
+  "lng": 8.531
+ },
+ {
+  "name": "Federal College of Education, Abeokuta",
+  "type": "college_of_education",
+  "city": "Abeokuta",
+  "state": "Ogun",
+  "lat": 7.1475,
+  "lng": 3.3619
+ },
+ {
+  "name": "Federal College of Education (Technical), Akoka",
+  "type": "college_of_education",
+  "city": "Lagos (Akoka)",
+  "state": "Lagos",
+  "lat": 6.522,
+  "lng": 3.388
+ },
+ {
+  "name": "Alvan Ikoku Federal College of Education",
+  "type": "college_of_education",
+  "city": "Owerri",
+  "state": "Imo",
+  "lat": 5.493,
+  "lng": 7.035
+ },
+ {
+  "name": "Federal College of Education, Kontagora",
+  "type": "college_of_education",
+  "city": "Kontagora",
+  "state": "Niger",
+  "lat": 10.4005,
+  "lng": 5.4718
+ },
+ {
+  "name": "Emmanuel Alayande College of Education",
+  "type": "college_of_education",
+  "city": "Oyo",
+  "state": "Oyo",
+  "lat": 7.85,
+  "lng": 3.93
+ },
+ {
+  "name": "University of Ibadan College of Medicine (UCH)",
+  "type": "college_of_health",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.403,
+  "lng": 3.902
+ },
+ {
+  "name": "School of Health Technology, Lagos",
+  "type": "college_of_health",
+  "city": "Lagos (Yaba)",
+  "state": "Lagos",
+  "lat": 6.51,
+  "lng": 3.369
+ },
+ {
+  "name": "College of Health Sciences and Technology, Ijero-Ekiti",
+  "type": "college_of_health",
+  "city": "Ijero-Ekiti",
+  "state": "Ekiti",
+  "lat": 7.8145,
+  "lng": 5.0714
+ },
+ {
+  "name": "Government Technical College, Ikorodu",
+  "type": "technical",
+  "city": "Ikorodu",
+  "state": "Lagos",
+  "lat": 6.619,
+  "lng": 3.505
+ },
+ {
+  "name": "Government Technical College, Kano",
+  "type": "technical",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 11.9964,
+  "lng": 8.5167
+ },
+ {
+  "name": "Abia State University, Uturu",
+  "type": "university",
+  "city": "Uturu",
+  "state": "Abia",
+  "lat": 5.826547,
+  "lng": 7.42399
+ },
+ {
+  "name": "Adamawa State University Mubi",
+  "type": "university",
+  "city": "Mubi",
+  "state": "Adamawa",
+  "lat": 10.267607,
+  "lng": 13.264359
+ },
+ {
+  "name": "Admiralty University of Nigeria",
+  "type": "university",
+  "city": "Asaba",
+  "state": "Delta",
+  "lat": 6.1983,
+  "lng": 6.7318
+ },
+ {
+  "name": "African University of Science & Technology, Abuja",
+  "type": "university",
+  "city": "Abuja",
+  "state": "FCT",
+  "lat": 9.064331,
+  "lng": 7.489297
+ },
+ {
+  "name": "Ahman Pategi University",
+  "type": "university",
+  "city": "Ilorin",
+  "state": "Kwara",
+  "lat": 8.4966,
+  "lng": 4.5426
+ },
+ {
+  "name": "Air Force Institute of Technology",
+  "type": "polytechnic",
+  "city": "Kaduna",
+  "state": "Kaduna",
+  "lat": 10.5105,
+  "lng": 7.4165
+ },
+ {
+  "name": "Akwa Ibom State University, Ikot Akpaden",
+  "type": "university",
+  "city": "Ikot Akpaden",
+  "state": "Akwa Ibom",
+  "lat": 5.0377,
+  "lng": 7.9128
+ },
+ {
+  "name": "Al-Ansar University, Maiduguri",
+  "type": "university",
+  "city": "Maiduguri",
+  "state": "Borno",
+  "lat": 11.839538,
+  "lng": 13.153621
+ },
+ {
+  "name": "Alex Ekwueme University, Ndufu-Alike",
+  "type": "university",
+  "city": "Ndufu-Alike",
+  "state": "Ebonyi",
+  "lat": 6.131894,
+  "lng": 8.143583
+ },
+ {
+  "name": "Al-Istiqama University, Sumaila",
+  "type": "university",
+  "city": "Sumaila",
+  "state": "Kano",
+  "lat": 11.25816,
+  "lng": 8.870224
+ },
+ {
+  "name": "Al-Qalam University",
+  "type": "university",
+  "city": "Katsina",
+  "state": "Katsina",
+  "lat": 12.9908,
+  "lng": 7.6018
+ },
+ {
+  "name": "Anan University, Kwall",
+  "type": "university",
+  "city": "Kwall",
+  "state": "Plateau",
+  "lat": 9.374268,
+  "lng": 9.608955
+ },
+ {
+  "name": "Anchor University Ayobo Lagos State",
+  "type": "university",
+  "city": "Ikeja",
+  "state": "Lagos",
+  "lat": 6.6018,
+  "lng": 3.3515
+ },
+ {
+  "name": "Arthur Javis University Akpoyubo Cross river State",
+  "type": "university",
+  "city": "Calabar",
+  "state": "Cross River",
+  "lat": 4.9757,
+  "lng": 8.3417
+ },
+ {
+  "name": "Atiba University Oyo",
+  "type": "university",
+  "city": "Oyo",
+  "state": "Oyo",
+  "lat": 7.841054,
+  "lng": 3.931536
+ },
+ {
+  "name": "Ave Maria University, Piyanko",
+  "type": "university",
+  "city": "Piyanko",
+  "state": "Nasarawa",
+  "lat": 8.4939,
+  "lng": 8.5227
+ },
+ {
+  "name": "Baba Ahmed University",
+  "type": "university",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.592
+ },
+ {
+  "name": "Bamidele Olumilua University of Science and Technology Ikere",
+  "type": "university",
+  "city": "Ikere",
+  "state": "Ekiti",
+  "lat": 7.513572,
+  "lng": 5.220276
+ },
+ {
+  "name": "Bauchi State University, Gadau",
+  "type": "university",
+  "city": "Gadau",
+  "state": "Bauchi",
+  "lat": 11.832644,
+  "lng": 10.158763
+ },
+ {
+  "name": "Bayelsa Medical University",
+  "type": "university",
+  "city": "Yenagoa",
+  "state": "Bayelsa",
+  "lat": 4.9267,
+  "lng": 6.2676
+ },
+ {
+  "name": "Bayero University",
+  "type": "university",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.592
+ },
+ {
+  "name": "Benue State University, Makurdi",
+  "type": "university",
+  "city": "Makurdi",
+  "state": "Benue",
+  "lat": 7.731263,
+  "lng": 8.538425
+ },
+ {
+  "name": "Caleb University",
+  "type": "university",
+  "city": "Ikeja",
+  "state": "Lagos",
+  "lat": 6.6018,
+  "lng": 3.3515
+ },
+ {
+  "name": "Capital City University",
+  "type": "university",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.592
+ },
+ {
+  "name": "Caritas University",
+  "type": "university",
+  "city": "Enugu",
+  "state": "Enugu",
+  "lat": 6.4584,
+  "lng": 7.5464
+ },
+ {
+  "name": "Claretian University of Nigeria, Nekede",
+  "type": "university",
+  "city": "Nekede",
+  "state": "Imo",
+  "lat": 5.433352,
+  "lng": 7.033955
+ },
+ {
+  "name": "Clifford University Owerrinta Abia State",
+  "type": "university",
+  "city": "Umuahia",
+  "state": "Abia",
+  "lat": 5.5265,
+  "lng": 7.4906
+ },
+ {
+  "name": "Coal City University Enugu State",
+  "type": "university",
+  "city": "Enugu",
+  "state": "Enugu",
+  "lat": 6.4584,
+  "lng": 7.5464
+ },
+ {
+  "name": "Confluence University of Science and Technology Osara",
+  "type": "university",
+  "city": "Osara",
+  "state": "Kogi",
+  "lat": 7.676721,
+  "lng": 6.416638
+ },
+ {
+  "name": "Cross River State University of Technology, Calabar",
+  "type": "university",
+  "city": "Calabar",
+  "state": "Cross River",
+  "lat": 4.9796,
+  "lng": 8.33736
+ },
+ {
+  "name": "Crown Hill University Eiyenkorin",
+  "type": "university",
+  "city": "Eiyenkorin",
+  "state": "Kwara",
+  "lat": 8.4966,
+  "lng": 4.5426
+ },
+ {
+  "name": "Delta University of Science and Technology, Ozoro",
+  "type": "university",
+  "city": "Ozoro",
+  "state": "Delta",
+  "lat": 5.542149,
+  "lng": 6.226748
+ },
+ {
+  "name": "Dominican University Ibadan Oyo State",
+  "type": "university",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.3775,
+  "lng": 3.947
+ },
+ {
+  "name": "Dominion University Ibadan",
+  "type": "university",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Ebonyi State University, Abakaliki",
+  "type": "university",
+  "city": "Abakaliki",
+  "state": "Ebonyi",
+  "lat": 6.32089,
+  "lng": 8.11332
+ },
+ {
+  "name": "Edo State University Uzairue",
+  "type": "university",
+  "city": "Uzairue",
+  "state": "Edo",
+  "lat": 6.335,
+  "lng": 5.6037
+ },
+ {
+  "name": "Edusoko University, Bida",
+  "type": "university",
+  "city": "Bida",
+  "state": "Niger",
+  "lat": 9.083333,
+  "lng": 6.016667
+ },
+ {
+  "name": "Eko University of Medical and Health Sciences Ijanikin",
+  "type": "college_of_health",
+  "city": "Ijanikin",
+  "state": "Lagos",
+  "lat": 6.496658,
+  "lng": 3.120799
+ },
+ {
+  "name": "Enugu State University of Medical and Applied Sciences, Igbo-Eno",
+  "type": "university",
+  "city": "Igbo-Eno",
+  "state": "Enugu",
+  "lat": 6.4584,
+  "lng": 7.5464
+ },
+ {
+  "name": "European University of Nigeria, Duboyi",
+  "type": "university",
+  "city": "Duboyi",
+  "state": "FCT",
+  "lat": 9.0765,
+  "lng": 7.3986
+ },
+ {
+  "name": "Federal University Gashua",
+  "type": "university",
+  "city": "Gashua",
+  "state": "Yobe",
+  "lat": 12.872855,
+  "lng": 11.038781
+ },
+ {
+  "name": "Federal University of Agriculture, Zuru",
+  "type": "university",
+  "city": "Zuru",
+  "state": "Kebbi",
+  "lat": 11.436776,
+  "lng": 5.231177
+ },
+ {
+  "name": "Federal University of Health Sciences, Azare",
+  "type": "college_of_health",
+  "city": "Azare",
+  "state": "Bauchi",
+  "lat": 11.672904,
+  "lng": 10.191831
+ },
+ {
+  "name": "Federal University of Health Sciences, Ila Orangun",
+  "type": "college_of_health",
+  "city": "Ila Orangun",
+  "state": "Osun",
+  "lat": 8.01554,
+  "lng": 4.904945
+ },
+ {
+  "name": "Federal University of Health Technology",
+  "type": "college_of_health",
+  "city": "Makurdi",
+  "state": "Benue",
+  "lat": 7.7322,
+  "lng": 8.5391
+ },
+ {
+  "name": "Federal University of Technology, Babura",
+  "type": "university",
+  "city": "Babura",
+  "state": "Jigawa",
+  "lat": 12.605012,
+  "lng": 8.82758
+ },
+ {
+  "name": "Federal University of Technology, Ikot Abasi",
+  "type": "university",
+  "city": "Ikot Abasi",
+  "state": "Akwa Ibom",
+  "lat": 4.585045,
+  "lng": 7.635553
+ },
+ {
+  "name": "Federal University, Dutsin-Ma",
+  "type": "university",
+  "city": "Dutsin-Ma",
+  "state": "Katsina",
+  "lat": 12.406752,
+  "lng": 7.527285
+ },
+ {
+  "name": "Federal University, Gusau Zamfara",
+  "type": "university",
+  "city": "Gusau Zamfara",
+  "state": "Zamfara",
+  "lat": 12.165836,
+  "lng": 6.66064
+ },
+ {
+  "name": "Federal University, Kashere",
+  "type": "university",
+  "city": "Kashere",
+  "state": "Gombe",
+  "lat": 10.112162,
+  "lng": 11.107629
+ },
+ {
+  "name": "Federal University, Lafia",
+  "type": "university",
+  "city": "Lafia",
+  "state": "Nasarawa",
+  "lat": 8.496046,
+  "lng": 8.514764
+ },
+ {
+  "name": "Godfrey Okoye University",
+  "type": "university",
+  "city": "Enugu",
+  "state": "Enugu",
+  "lat": 6.4584,
+  "lng": 7.5464
+ },
+ {
+  "name": "Gombe State Univeristy",
+  "type": "university",
+  "city": "Univeristy",
+  "state": "Gombe",
+  "lat": 10.2897,
+  "lng": 11.1673
+ },
+ {
+  "name": "Gombe State University of Science and Technology",
+  "type": "university",
+  "city": "Gombe",
+  "state": "Gombe",
+  "lat": 10.2897,
+  "lng": 11.1673
+ },
+ {
+  "name": "Greenfield University",
+  "type": "university",
+  "city": "Kaduna",
+  "state": "Kaduna",
+  "lat": 10.5105,
+  "lng": 7.4165
+ },
+ {
+  "name": "Hallmark University, Ijebi Itele",
+  "type": "university",
+  "city": "Ijebi Itele",
+  "state": "Ogun",
+  "lat": 7.1475,
+  "lng": 3.3619
+ },
+ {
+  "name": "Havilla University, Nde-Ikom",
+  "type": "university",
+  "city": "Nde-Ikom",
+  "state": "Cross River",
+  "lat": 6.040336,
+  "lng": 8.688448
+ },
+ {
+  "name": "Imo State University, Owerri",
+  "type": "university",
+  "city": "Owerri",
+  "state": "Imo",
+  "lat": 5.489736,
+  "lng": 7.034197
+ },
+ {
+  "name": "James Hope University",
+  "type": "university",
+  "city": "Ikeja",
+  "state": "Lagos",
+  "lat": 6.6018,
+  "lng": 3.3515
+ },
+ {
+  "name": "Kaduna State University",
+  "type": "university",
+  "city": "Kaduna",
+  "state": "Kaduna",
+  "lat": 10.5105,
+  "lng": 7.4165
+ },
+ {
+  "name": "Kano University of Science & Technology, Wudil",
+  "type": "university",
+  "city": "Wudil",
+  "state": "Kano",
+  "lat": 11.76688,
+  "lng": 8.839015
+ },
+ {
+  "name": "Karl-Kumm University, Vom",
+  "type": "university",
+  "city": "Vom",
+  "state": "Plateau",
+  "lat": 9.666609,
+  "lng": 8.733342
+ },
+ {
+  "name": "Kebbi State University of Science and Technology, Aliero",
+  "type": "university",
+  "city": "Aliero",
+  "state": "Kebbi",
+  "lat": 12.288258,
+  "lng": 4.470692
+ },
+ {
+  "name": "Khadija University, Majia",
+  "type": "university",
+  "city": "Majia",
+  "state": "Jigawa",
+  "lat": 12.30876,
+  "lng": 9.459772
+ },
+ {
+  "name": "Khalifa Isiyaku Rabiu University",
+  "type": "university",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.592
+ },
+ {
+  "name": "Kingsley Ozumba Mbadiwe University Ogboko",
+  "type": "university",
+  "city": "Ogboko",
+  "state": "Imo",
+  "lat": 5.4836,
+  "lng": 7.0333
+ },
+ {
+  "name": "Kola Daisi University Ibadan",
+  "type": "university",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Kwara State University, Ilorin",
+  "type": "university",
+  "city": "Ilorin",
+  "state": "Kwara",
+  "lat": 8.496366,
+  "lng": 4.548048
+ },
+ {
+  "name": "Lagos State University of Education, Ijanikin",
+  "type": "university",
+  "city": "Ijanikin",
+  "state": "Lagos",
+  "lat": 6.496658,
+  "lng": 3.120799
+ },
+ {
+  "name": "Lagos State University of Science and Technology Ikorodu",
+  "type": "university",
+  "city": "Ikorodu",
+  "state": "Lagos",
+  "lat": 6.619123,
+  "lng": 3.504127
+ },
+ {
+  "name": "Lagos State University, Ojo",
+  "type": "university",
+  "city": "Ojo",
+  "state": "Lagos",
+  "lat": 6.462497,
+  "lng": 3.16571
+ },
+ {
+  "name": "Legacy University",
+  "type": "university",
+  "city": "Awka",
+  "state": "Anambra",
+  "lat": 6.212,
+  "lng": 7.074
+ },
+ {
+  "name": "Maranathan University, Mgbidi",
+  "type": "university",
+  "city": "Mgbidi",
+  "state": "Imo",
+  "lat": 5.732897,
+  "lng": 6.887596
+ },
+ {
+  "name": "Margaret Lawrence University, Umunede",
+  "type": "university",
+  "city": "Umunede",
+  "state": "Delta",
+  "lat": 6.264577,
+  "lng": 6.30997
+ },
+ {
+  "name": "Maryam Abacha American University of Nigeria",
+  "type": "university",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.592
+ },
+ {
+  "name": "Mewar International University, Masaka",
+  "type": "university",
+  "city": "Masaka",
+  "state": "Nasarawa",
+  "lat": 9.005,
+  "lng": 7.673611
+ },
+ {
+  "name": "Mudiame University, Irrua",
+  "type": "university",
+  "city": "Irrua",
+  "state": "Edo",
+  "lat": 6.739027,
+  "lng": 6.222354
+ },
+ {
+  "name": "Nasarawa State University Keffi",
+  "type": "university",
+  "city": "Keffi",
+  "state": "Nasarawa",
+  "lat": 8.845318,
+  "lng": 7.876834
+ },
+ {
+  "name": "National Open University of Nigeria",
+  "type": "university",
+  "city": "Ikeja",
+  "state": "Lagos",
+  "lat": 6.6018,
+  "lng": 3.3515
+ },
+ {
+  "name": "Newgate University, MInna",
+  "type": "university",
+  "city": "MInna",
+  "state": "Niger",
+  "lat": 9.618709,
+  "lng": 6.547575
+ },
+ {
+  "name": "Niger Delta University Yenagoa",
+  "type": "university",
+  "city": "Yenagoa",
+  "state": "Delta",
+  "lat": 6.1983,
+  "lng": 6.7318
+ },
+ {
+  "name": "Nigerian British University, Asa",
+  "type": "university",
+  "city": "Asa",
+  "state": "Abia",
+  "lat": 5.016667,
+  "lng": 7.333333
+ },
+ {
+  "name": "Nigerian Defence Academy Kaduna",
+  "type": "university",
+  "city": "Kaduna",
+  "state": "Kaduna",
+  "lat": 10.51829,
+  "lng": 7.435986
+ },
+ {
+  "name": "Nigerian Maritime University Okerenkoko",
+  "type": "university",
+  "city": "Okerenkoko",
+  "state": "Delta",
+  "lat": 5.624487,
+  "lng": 5.390378
+ },
+ {
+  "name": "Nile University of Nigeria, Abuja",
+  "type": "university",
+  "city": "Abuja",
+  "state": "FCT",
+  "lat": 9.064331,
+  "lng": 7.489297
+ },
+ {
+  "name": "NOK University, Kachia",
+  "type": "university",
+  "city": "Kachia",
+  "state": "Kaduna",
+  "lat": 9.857073,
+  "lng": 7.688586
+ },
+ {
+  "name": "NorthWest University Sokoto State",
+  "type": "university",
+  "city": "Sokoto",
+  "state": "Sokoto",
+  "lat": 13.0059,
+  "lng": 5.2476
+ },
+ {
+  "name": "Oduduwa University",
+  "type": "university",
+  "city": "Osogbo",
+  "state": "Osun",
+  "lat": 7.7827,
+  "lng": 4.5418
+ },
+ {
+  "name": "Ondo State University of Medical Sciences",
+  "type": "university",
+  "city": "Sciences",
+  "state": "Ondo",
+  "lat": 7.302093,
+  "lng": 5.134189
+ },
+ {
+  "name": "Ondo State University of Science and Technology Okitipupa",
+  "type": "university",
+  "city": "Okitipupa",
+  "state": "Ondo",
+  "lat": 6.565445,
+  "lng": 4.729451
+ },
+ {
+  "name": "Osun State University Osogbo",
+  "type": "university",
+  "city": "Osogbo",
+  "state": "Osun",
+  "lat": 7.758322,
+  "lng": 4.575045
+ },
+ {
+  "name": "Pan-Atlantic University",
+  "type": "university",
+  "city": "Ikeja",
+  "state": "Lagos",
+  "lat": 6.6018,
+  "lng": 3.3515
+ },
+ {
+  "name": "Paul University",
+  "type": "university",
+  "city": "Awka",
+  "state": "Anambra",
+  "lat": 6.212,
+  "lng": 7.074
+ },
+ {
+  "name": "PEN Resource University",
+  "type": "university",
+  "city": "Gombe",
+  "state": "Gombe",
+  "lat": 10.2897,
+  "lng": 11.1673
+ },
+ {
+  "name": "Peter University",
+  "type": "university",
+  "city": "Awka",
+  "state": "Anambra",
+  "lat": 6.212,
+  "lng": 7.074
+ },
+ {
+  "name": "Philomath University, Kuje, Abuja",
+  "type": "university",
+  "city": "Abuja",
+  "state": "FCT",
+  "lat": 9.064331,
+  "lng": 7.489297
+ },
+ {
+  "name": "Plateau State University Bokkos",
+  "type": "university",
+  "city": "Bokkos",
+  "state": "Plateau",
+  "lat": 9.228535,
+  "lng": 8.894802
+ },
+ {
+  "name": "Precious Cornerstone University",
+  "type": "university",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.3775,
+  "lng": 3.947
+ },
+ {
+  "name": "Renaissance University",
+  "type": "university",
+  "city": "Enugu",
+  "state": "Enugu",
+  "lat": 6.4584,
+  "lng": 7.5464
+ },
+ {
+  "name": "Rhema University",
+  "type": "university",
+  "city": "Port Harcourt",
+  "state": "Rivers",
+  "lat": 4.8156,
+  "lng": 7.0498
+ },
+ {
+  "name": "Ritman University, Ikot Ekpene",
+  "type": "university",
+  "city": "Ikot Ekpene",
+  "state": "Akwa Ibom",
+  "lat": 5.181975,
+  "lng": 7.713218
+ },
+ {
+  "name": "Saisa University of Medical Sciences and Technology",
+  "type": "university",
+  "city": "Sokoto",
+  "state": "Sokoto",
+  "lat": 13.0059,
+  "lng": 5.2476
+ },
+ {
+  "name": "Shehu Shagari University of Education",
+  "type": "university",
+  "city": "Sokoto",
+  "state": "Sokoto",
+  "lat": 13.0059,
+  "lng": 5.2476
+ },
+ {
+  "name": "Skyline University",
+  "type": "university",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.592
+ },
+ {
+  "name": "Sokoto State University",
+  "type": "university",
+  "city": "Sokoto",
+  "state": "Sokoto",
+  "lat": 13.0059,
+  "lng": 5.2476
+ },
+ {
+  "name": "Spiritan University",
+  "type": "university",
+  "city": "Umuahia",
+  "state": "Abia",
+  "lat": 5.5265,
+  "lng": 7.4906
+ },
+ {
+  "name": "Sports University, Idumuje, Ugboko",
+  "type": "university",
+  "city": "Ugboko",
+  "state": "Delta",
+  "lat": 6.362779,
+  "lng": 6.403402
+ },
+ {
+  "name": "Sule Lamido University, Kafin Hausa",
+  "type": "university",
+  "city": "Kafin Hausa",
+  "state": "Jigawa",
+  "lat": 12.164372,
+  "lng": 9.987357
+ },
+ {
+  "name": "Taraba State University, Jalingo",
+  "type": "university",
+  "city": "Jalingo",
+  "state": "Taraba",
+  "lat": 8.894985,
+  "lng": 11.360042
+ },
+ {
+  "name": "Thomas Adewumi University, Oko-Irese",
+  "type": "university",
+  "city": "Oko-Irese",
+  "state": "Kwara",
+  "lat": 8.4966,
+  "lng": 4.5426
+ },
+ {
+  "name": "Topfaith University, Mkpatak",
+  "type": "university",
+  "city": "Mkpatak",
+  "state": "Akwa Ibom",
+  "lat": 5.052114,
+  "lng": 7.67045
+ },
+ {
+  "name": "Trinity University Ogun State",
+  "type": "university",
+  "city": "Abeokuta",
+  "state": "Ogun",
+  "lat": 7.1475,
+  "lng": 3.3619
+ },
+ {
+  "name": "Umar Musa Yar' Adua University Katsina",
+  "type": "university",
+  "city": "Katsina",
+  "state": "Katsina",
+  "lat": 12.989428,
+  "lng": 7.600628
+ },
+ {
+  "name": "University of Abuja, Gwagwalada",
+  "type": "university",
+  "city": "Gwagwalada",
+  "state": "FCT",
+  "lat": 8.936026,
+  "lng": 7.085914
+ },
+ {
+  "name": "University of Africa Toru Orua",
+  "type": "university",
+  "city": "Orua",
+  "state": "Bayelsa",
+  "lat": 5.101979,
+  "lng": 6.066414
+ },
+ {
+  "name": "University of Agriculture and Environmental Sciences Umuagwo",
+  "type": "university",
+  "city": "Umuagwo",
+  "state": "Imo",
+  "lat": 5.4836,
+  "lng": 7.0333
+ },
+ {
+  "name": "University of Delta, Agbor",
+  "type": "university",
+  "city": "Agbor",
+  "state": "Delta",
+  "lat": 6.257814,
+  "lng": 6.182193
+ },
+ {
+  "name": "University of Ilesa",
+  "type": "university",
+  "city": "Ilesa",
+  "state": "Osun",
+  "lat": 7.624589,
+  "lng": 4.741466
+ },
+ {
+  "name": "University of Offa",
+  "type": "university",
+  "city": "Offa",
+  "state": "Kwara",
+  "lat": 8.156001,
+  "lng": 4.722743
+ },
+ {
+  "name": "Veritas University, Abuja",
+  "type": "university",
+  "city": "Abuja",
+  "state": "FCT",
+  "lat": 9.064331,
+  "lng": 7.489297
+ },
+ {
+  "name": "Wellspring University",
+  "type": "university",
+  "city": "Benin City",
+  "state": "Edo",
+  "lat": 6.335,
+  "lng": 5.6037
+ },
+ {
+  "name": "Wesley University Ondo",
+  "type": "university",
+  "city": "Ondo",
+  "state": "Ondo",
+  "lat": 7.1,
+  "lng": 4.833333
+ },
+ {
+  "name": "Western Delta University",
+  "type": "university",
+  "city": "Asaba",
+  "state": "Delta",
+  "lat": 6.1983,
+  "lng": 6.7318
+ },
+ {
+  "name": "Westland University Iwo",
+  "type": "university",
+  "city": "Iwo",
+  "state": "Osun",
+  "lat": 7.633333,
+  "lng": 4.183333
+ },
+ {
+  "name": "Yobe State University, Damaturu",
+  "type": "university",
+  "city": "Damaturu",
+  "state": "Yobe",
+  "lat": 11.747,
+  "lng": 11.9608
+ },
+ {
+  "name": "Yusuf Maitama Sule University Kano",
+  "type": "university",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 11.993998,
+  "lng": 8.521974
+ },
+ {
+  "name": "Zamfara State University",
+  "type": "university",
+  "city": "Gusau",
+  "state": "Zamfara",
+  "lat": 12.1704,
+  "lng": 6.6641
+ },
+ {
+  "name": "Akperan Orshi College of Agriculture, Yandev, Gboko",
+  "type": "technical",
+  "city": "Gboko",
+  "state": "Benue",
+  "lat": 7.377848,
+  "lng": 8.871322
+ },
+ {
+  "name": "Audu Bako College of Agriculture, Danbatta",
+  "type": "technical",
+  "city": "Danbatta",
+  "state": "Kano",
+  "lat": 12.433936,
+  "lng": 8.515069
+ },
+ {
+  "name": "Bauchi State College of Agriculture",
+  "type": "technical",
+  "city": "Bauchi",
+  "state": "Bauchi",
+  "lat": 10.3158,
+  "lng": 9.8442
+ },
+ {
+  "name": "College of Agriculture and Animal Health, Bakura, Talata Mafara",
+  "type": "technical",
+  "city": "Talata Mafara",
+  "state": "Zamfara",
+  "lat": 12.39901,
+  "lng": 6.082583
+ },
+ {
+  "name": "College of Agriculture and Animal Science, DAC-ABU, Mando",
+  "type": "technical",
+  "city": "Mando",
+  "state": "Kaduna",
+  "lat": 10.592396,
+  "lng": 7.406002
+ },
+ {
+  "name": "College of Agriculture, Jalingo",
+  "type": "technical",
+  "city": "Jalingo",
+  "state": "Taraba",
+  "lat": 8.894985,
+  "lng": 11.360042
+ },
+ {
+  "name": "College of Agriculture, DAC- ABU, Kabba",
+  "type": "technical",
+  "city": "Kabba",
+  "state": "Kogi",
+  "lat": 7.828729,
+  "lng": 6.0731
+ },
+ {
+  "name": "College of Agriculture, Zuru",
+  "type": "technical",
+  "city": "Zuru",
+  "state": "Kebbi",
+  "lat": 11.436776,
+  "lng": 5.231177
+ },
+ {
+  "name": "Edo State College of Agriculture, Iguoriakhi",
+  "type": "technical",
+  "city": "Iguoriakhi",
+  "state": "Edo",
+  "lat": 6.335,
+  "lng": 5.6037
+ },
+ {
+  "name": "Federal College of Agriculture, Akure",
+  "type": "technical",
+  "city": "Akure",
+  "state": "Ondo",
+  "lat": 7.25256,
+  "lng": 5.193265
+ },
+ {
+  "name": "Federal College of Agriculture, Moor Plantation, Ibadan",
+  "type": "technical",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Federal College of Agriculture, Ishiagu",
+  "type": "technical",
+  "city": "Ishiagu",
+  "state": "Ebonyi",
+  "lat": 5.95,
+  "lng": 7.566667
+ },
+ {
+  "name": "Federal College of Agricultural Produce Technology",
+  "type": "other",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.592
+ },
+ {
+  "name": "Federal College of Animal Health & Production Technology, Ibadan",
+  "type": "technical",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Federal College of Animal Health & Production Technology, Vom",
+  "type": "technical",
+  "city": "Vom",
+  "state": "Plateau",
+  "lat": 9.666609,
+  "lng": 8.733342
+ },
+ {
+  "name": "Federal College of Fisheries & Marine Technology, Victoria Island",
+  "type": "technical",
+  "city": "Victoria Island",
+  "state": "Lagos",
+  "lat": 6.430028,
+  "lng": 3.42599
+ },
+ {
+  "name": "Federal College of Forestry, Jericho Hill, Ibadan",
+  "type": "technical",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Federal College of Forestry, Jos",
+  "type": "technical",
+  "city": "Jos",
+  "state": "Plateau",
+  "lat": 9.917513,
+  "lng": 8.89794
+ },
+ {
+  "name": "Federal College of Forestry Mechanisation Afaka",
+  "type": "technical",
+  "city": "Afaka",
+  "state": "Kaduna",
+  "lat": 10.66663,
+  "lng": 7.387799
+ },
+ {
+  "name": "Federal College of Forestry Resources Management, Fugar",
+  "type": "technical",
+  "city": "Fugar",
+  "state": "Edo",
+  "lat": 7.087238,
+  "lng": 6.497057
+ },
+ {
+  "name": "Federal College of Forestry Resources Management, Ishiagu",
+  "type": "technical",
+  "city": "Ishiagu",
+  "state": "Ebonyi",
+  "lat": 5.95,
+  "lng": 7.566667
+ },
+ {
+  "name": "Federal College of Forestry Resources Management, Maiduguri",
+  "type": "technical",
+  "city": "Maiduguri",
+  "state": "Borno",
+  "lat": 11.839538,
+  "lng": 13.153621
+ },
+ {
+  "name": "Federal College of Freshwater Fisheries Technology, Baga, Maiduguri",
+  "type": "technical",
+  "city": "Maiduguri",
+  "state": "Borno",
+  "lat": 11.839538,
+  "lng": 13.153621
+ },
+ {
+  "name": "Federal College of Freshwater Fisheries Technology, New Bussa",
+  "type": "technical",
+  "city": "New Bussa",
+  "state": "Niger",
+  "lat": 9.883151,
+  "lng": 4.509478
+ },
+ {
+  "name": "Federal College of Horticultural Technology, Dadin Kowa",
+  "type": "other",
+  "city": "Dadin Kowa",
+  "state": "Gombe",
+  "lat": 10.32178,
+  "lng": 11.481089
+ },
+ {
+  "name": "Federal College of Land Resources Technology, Kuru, Jos",
+  "type": "other",
+  "city": "Jos",
+  "state": "Plateau",
+  "lat": 9.917513,
+  "lng": 8.89794
+ },
+ {
+  "name": "Federal College of Land Resources Technology, Owerri",
+  "type": "other",
+  "city": "Owerri",
+  "state": "Imo",
+  "lat": 5.489736,
+  "lng": 7.034197
+ },
+ {
+  "name": "Federal College of Wildlife Management, New Bussa",
+  "type": "other",
+  "city": "New Bussa",
+  "state": "Niger",
+  "lat": 9.883151,
+  "lng": 4.509478
+ },
+ {
+  "name": "Mohammet Lawan College of Agriculture, Maiduguri",
+  "type": "technical",
+  "city": "Maiduguri",
+  "state": "Borno",
+  "lat": 11.839538,
+  "lng": 13.153621
+ },
+ {
+  "name": "Niger State College of Agriculture, Mokwa",
+  "type": "technical",
+  "city": "Mokwa",
+  "state": "Niger",
+  "lat": 9.121897,
+  "lng": 5.323282
+ },
+ {
+  "name": "Plateau State College of Agriculture, Garkawa",
+  "type": "technical",
+  "city": "Garkawa",
+  "state": "Plateau",
+  "lat": 9.8965,
+  "lng": 8.8583
+ },
+ {
+  "name": "Samaru College of Agriculture, DAC ABU, Zaria",
+  "type": "technical",
+  "city": "Zaria",
+  "state": "Kaduna",
+  "lat": 11.024812,
+  "lng": 7.651853
+ },
+ {
+  "name": "Usteem College of Agriculture, Osogbo",
+  "type": "technical",
+  "city": "Osogbo",
+  "state": "Osun",
+  "lat": 7.758322,
+  "lng": 4.575045
+ },
+ {
+  "name": "Yobe State College of Agriculture, Gujba",
+  "type": "technical",
+  "city": "Gujba",
+  "state": "Yobe",
+  "lat": 11.344585,
+  "lng": 11.920274
+ },
+ {
+  "name": "Akanu Ibiam Federal Polytechnic Unwana, Afikpo",
+  "type": "polytechnic",
+  "city": "Afikpo",
+  "state": "Ebonyi",
+  "lat": 5.88379,
+  "lng": 7.937207
+ },
+ {
+  "name": "Auchi Polytechnic, Auchi",
+  "type": "polytechnic",
+  "city": "Auchi",
+  "state": "Edo",
+  "lat": 7.067445,
+  "lng": 6.267666
+ },
+ {
+  "name": "Federal Polytechnic Bali",
+  "type": "polytechnic",
+  "city": "Bali",
+  "state": "Taraba",
+  "lat": 8.090626,
+  "lng": 10.952262
+ },
+ {
+  "name": "Federal Polytechnic Bauchi",
+  "type": "polytechnic",
+  "city": "Bauchi",
+  "state": "Bauchi",
+  "lat": 10.314762,
+  "lng": 9.845442
+ },
+ {
+  "name": "Federal Polytechnic Damaturu",
+  "type": "polytechnic",
+  "city": "Damaturu",
+  "state": "Yobe",
+  "lat": 11.747,
+  "lng": 11.9608
+ },
+ {
+  "name": "Federal Polytechnic, Daura",
+  "type": "polytechnic",
+  "city": "Daura",
+  "state": "Katsina",
+  "lat": 13.035917,
+  "lng": 8.319388
+ },
+ {
+  "name": "Federal Polytechnic Ede",
+  "type": "polytechnic",
+  "city": "Ede",
+  "state": "Osun",
+  "lat": 7.733333,
+  "lng": 4.433333
+ },
+ {
+  "name": "Federal Polytechnic Ekowe",
+  "type": "polytechnic",
+  "city": "Ekowe",
+  "state": "Bayelsa",
+  "lat": 5.285067,
+  "lng": 6.41661
+ },
+ {
+  "name": "Federal Polytechnic Idah",
+  "type": "polytechnic",
+  "city": "Idah",
+  "state": "Kogi",
+  "lat": 7.109985,
+  "lng": 6.734049
+ },
+ {
+  "name": "Federal Polytechnic Ile-Oluji",
+  "type": "polytechnic",
+  "city": "Ile-Oluji",
+  "state": "Ondo",
+  "lat": 7.207471,
+  "lng": 4.869972
+ },
+ {
+  "name": "Federal Polytechnic Kaura Namoda",
+  "type": "polytechnic",
+  "city": "Namoda",
+  "state": "Zamfara",
+  "lat": 12.591396,
+  "lng": 6.804629
+ },
+ {
+  "name": "Federal Polytechnic Kaltungo",
+  "type": "polytechnic",
+  "city": "Kaltungo",
+  "state": "Gombe",
+  "lat": 9.826946,
+  "lng": 11.436106
+ },
+ {
+  "name": "Federal Polytechnic Nasarawa",
+  "type": "polytechnic",
+  "city": "Nasarawa",
+  "state": "Nasarawa",
+  "lat": 8.330112,
+  "lng": 7.750259
+ },
+ {
+  "name": "Federal Polytechnic Nekede, Owerri",
+  "type": "polytechnic",
+  "city": "Owerri",
+  "state": "Imo",
+  "lat": 5.489736,
+  "lng": 7.034197
+ },
+ {
+  "name": "Federal Polytechnic Offa",
+  "type": "polytechnic",
+  "city": "Offa",
+  "state": "Kwara",
+  "lat": 8.156001,
+  "lng": 4.722743
+ },
+ {
+  "name": "Federal Polytechnic of Oil and Gas Bonny",
+  "type": "polytechnic",
+  "city": "Bonny",
+  "state": "Rivers",
+  "lat": 4.505781,
+  "lng": 7.203466
+ },
+ {
+  "name": "Federal Polytechnic Ukana",
+  "type": "polytechnic",
+  "city": "Ukana",
+  "state": "Akwa Ibom",
+  "lat": 5.132702,
+  "lng": 7.716624
+ },
+ {
+  "name": "Hussaini Adamu Federal Polytechnic",
+  "type": "polytechnic",
+  "city": "Dutse",
+  "state": "Jigawa",
+  "lat": 11.7594,
+  "lng": 9.3503
+ },
+ {
+  "name": "Waziri Umaru Federal Polytechnic, Birnin Kebbi",
+  "type": "polytechnic",
+  "city": "Birnin Kebbi",
+  "state": "Kebbi",
+  "lat": 12.457346,
+  "lng": 4.200611
+ },
+ {
+  "name": "Yaba College of Technology, Yaba",
+  "type": "polytechnic",
+  "city": "Yaba",
+  "state": "Lagos",
+  "lat": 6.511469,
+  "lng": 3.369998
+ },
+ {
+  "name": "Federal Polytechnic Ayede",
+  "type": "polytechnic",
+  "city": "Ayede",
+  "state": "Oyo",
+  "lat": 7.3775,
+  "lng": 3.947
+ },
+ {
+  "name": "Federal Polytechnic Munguno",
+  "type": "polytechnic",
+  "city": "Munguno",
+  "state": "Borno",
+  "lat": 11.787786,
+  "lng": 13.113912
+ },
+ {
+  "name": "Federal Polytechnic N’yak, Shendam",
+  "type": "polytechnic",
+  "city": "Shendam",
+  "state": "Plateau",
+  "lat": 8.736555,
+  "lng": 9.515552
+ },
+ {
+  "name": "Federal Polytechnic Ohodo",
+  "type": "polytechnic",
+  "city": "Ohodo",
+  "state": "Enugu",
+  "lat": 6.4584,
+  "lng": 7.5464
+ },
+ {
+  "name": "Federal Polytechnic Ugep",
+  "type": "polytechnic",
+  "city": "Ugep",
+  "state": "Rivers",
+  "lat": 4.8156,
+  "lng": 7.0498
+ },
+ {
+  "name": "Federal Polytechnic Wannune",
+  "type": "polytechnic",
+  "city": "Wannune",
+  "state": "Benue",
+  "lat": 7.7322,
+  "lng": 8.5391
+ },
+ {
+  "name": "Federal Polytechnic Orogun",
+  "type": "polytechnic",
+  "city": "Orogun",
+  "state": "Delta",
+  "lat": 5.641175,
+  "lng": 6.156868
+ },
+ {
+  "name": "Federal Polytechnic Kabo",
+  "type": "polytechnic",
+  "city": "Kabo",
+  "state": "Kano",
+  "lat": 11.891463,
+  "lng": 8.200629
+ },
+ {
+  "name": "Federal Polytechnic Umunnoechi",
+  "type": "polytechnic",
+  "city": "Umunnoechi",
+  "state": "Abia",
+  "lat": 5.5265,
+  "lng": 7.4906
+ },
+ {
+  "name": "Airforce Institute of Technology (AFIT), NAF Base Kaduna",
+  "type": "polytechnic",
+  "city": "NAF Base Kaduna",
+  "state": "Kaduna",
+  "lat": 10.5105,
+  "lng": 7.4165
+ },
+ {
+  "name": "Petroleum Training Institute Effurun",
+  "type": "other",
+  "city": "Effurun",
+  "state": "Delta",
+  "lat": 5.555501,
+  "lng": 5.78501
+ },
+ {
+  "name": "Nigerian College of Aviation Technology (NCAT), Sokoto Road, Zaria",
+  "type": "technical",
+  "city": "Zaria",
+  "state": "Kaduna",
+  "lat": 11.024812,
+  "lng": 7.651853
+ },
+ {
+  "name": "Academy of Medical Health and Education, Umoukwu",
+  "type": "other",
+  "city": "Umoukwu",
+  "state": "Benue",
+  "lat": 7.7322,
+  "lng": 8.5391
+ },
+ {
+  "name": "Adeyemi College of Technology, Ore Road",
+  "type": "polytechnic",
+  "city": "Ore Road",
+  "state": "Ondo",
+  "lat": 6.551836,
+  "lng": 4.88778
+ },
+ {
+  "name": "African College of Agriculture, Vocational and Technical Studies Akure",
+  "type": "technical",
+  "city": "Akure",
+  "state": "Ondo",
+  "lat": 7.25256,
+  "lng": 5.193265
+ },
+ {
+  "name": "Afrihub ICT Institute, Wuse II, Abuja",
+  "type": "other",
+  "city": "Abuja",
+  "state": "FCT",
+  "lat": 9.064331,
+  "lng": 7.489297
+ },
+ {
+  "name": "Akwa-Ibom State Polytechnic, Ikot Ekpene",
+  "type": "polytechnic",
+  "city": "Ikot Ekpene",
+  "state": "Akwa Ibom",
+  "lat": 5.181975,
+  "lng": 7.713218
+ },
+ {
+  "name": "Al-Muhibba Institute ICT and Entrepreneurship, Kubawa, Abuja",
+  "type": "other",
+  "city": "Abuja",
+  "state": "FCT",
+  "lat": 9.064331,
+  "lng": 7.489297
+ },
+ {
+  "name": "Ambassador College Festac",
+  "type": "other",
+  "city": "Festac",
+  "state": "Lagos",
+  "lat": 6.468273,
+  "lng": 3.283937
+ },
+ {
+  "name": "Aquatech Institute of Fisheries Management, Ibadan",
+  "type": "technical",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Arewa Paralegal Innovation ENT. Rimi Kaduna",
+  "type": "other",
+  "city": "Kaduna",
+  "state": "Kaduna",
+  "lat": 10.51829,
+  "lng": 7.435986
+ },
+ {
+  "name": "Asteven Renewable Energy Academy, Asese",
+  "type": "other",
+  "city": "Asese",
+  "state": "Ogun",
+  "lat": 6.766667,
+  "lng": 3.416667
+ },
+ {
+  "name": "Awgu College of Medical Sciences and Health Technology, Awgu",
+  "type": "college_of_health",
+  "city": "Awgu",
+  "state": "Enugu",
+  "lat": 6.173133,
+  "lng": 7.451248
+ },
+ {
+  "name": "Benson Idahosa School of Basic & Applied Studies, Benin City",
+  "type": "other",
+  "city": "Benin City",
+  "state": "Edo",
+  "lat": 6.333059,
+  "lng": 5.622106
+ },
+ {
+  "name": "Best Global Business and Financial School Kachia Road",
+  "type": "other",
+  "city": "Road",
+  "state": "Kaduna",
+  "lat": 10.508511,
+  "lng": 7.421131
+ },
+ {
+  "name": "Bonny Vocational Centre, Bonny Island",
+  "type": "technical",
+  "city": "Bonny Island",
+  "state": "Rivers",
+  "lat": 4.456461,
+  "lng": 7.243425
+ },
+ {
+  "name": "Buckingham Academy of Management and Technology, Ogidi",
+  "type": "other",
+  "city": "Ogidi",
+  "state": "Anambra",
+  "lat": 6.152686,
+  "lng": 6.86683
+ },
+ {
+  "name": "Business Education Examinations Council (BEEC, Ikoyi",
+  "type": "other",
+  "city": "Ikoyi",
+  "state": "Lagos",
+  "lat": 6.452343,
+  "lng": 3.428052
+ },
+ {
+  "name": "Calvary Foundation Institute of Technology",
+  "type": "polytechnic",
+  "city": "Enugu",
+  "state": "Enugu",
+  "lat": 6.4584,
+  "lng": 7.5464
+ },
+ {
+  "name": "Calvary College of Technology, Ijoko",
+  "type": "polytechnic",
+  "city": "Ijoko",
+  "state": "Ogun",
+  "lat": 6.688233,
+  "lng": 3.303542
+ },
+ {
+  "name": "Centre for Creative Arts Education, Port-Harcourt",
+  "type": "other",
+  "city": "Port-Harcourt",
+  "state": "Rivers",
+  "lat": 4.767658,
+  "lng": 7.018853
+ },
+ {
+  "name": "Certified Institute of Shipping of Nigeria (CISN)",
+  "type": "other",
+  "city": "Ikeja",
+  "state": "Lagos",
+  "lat": 6.6018,
+  "lng": 3.3515
+ },
+ {
+  "name": "Cherish Enterprise Institute, Batsari",
+  "type": "other",
+  "city": "Batsari",
+  "state": "Katsina",
+  "lat": 12.845422,
+  "lng": 7.267983
+ },
+ {
+  "name": "CIFMAN Institute of Technology, Sabo, Yaba",
+  "type": "polytechnic",
+  "city": "Yaba",
+  "state": "Lagos",
+  "lat": 6.511469,
+  "lng": 3.369998
+ },
+ {
+  "name": "City Gate Institute of Innovation and Technology, Ibadan",
+  "type": "other",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "City Institute of Management and Technology, Idogbo Educational Cente",
+  "type": "other",
+  "city": "Idogbo Educational Cente",
+  "state": "Nasarawa",
+  "lat": 8.4939,
+  "lng": 8.5227
+ },
+ {
+  "name": "Clara School of Media & Performing Arts, Yenogoa",
+  "type": "other",
+  "city": "Yenogoa",
+  "state": "Bayelsa",
+  "lat": 4.9267,
+  "lng": 6.2676
+ },
+ {
+  "name": "Complete Computers and Technology Institute, Benin City",
+  "type": "other",
+  "city": "Benin City",
+  "state": "Edo",
+  "lat": 6.333059,
+  "lng": 5.622106
+ },
+ {
+  "name": "Comprehensive Institute of Management and Technology, Byazin, Kubwa, Abuja",
+  "type": "other",
+  "city": "Abuja",
+  "state": "FCT",
+  "lat": 9.064331,
+  "lng": 7.489297
+ },
+ {
+  "name": "Conarina Maririme Academy Oria, Abraka",
+  "type": "other",
+  "city": "Abraka",
+  "state": "Delta",
+  "lat": 5.783601,
+  "lng": 6.100474
+ },
+ {
+  "name": "Dalewares Institute of Technolog, Surulere",
+  "type": "other",
+  "city": "Surulere",
+  "state": "Lagos",
+  "lat": 6.485574,
+  "lng": 3.353991
+ },
+ {
+  "name": "Damson Institute of Management and Technology, Nyanya Karshi Road",
+  "type": "other",
+  "city": "Nyanya Karshi Road",
+  "state": "FCT",
+  "lat": 8.953321,
+  "lng": 7.550191
+ },
+ {
+  "name": "Del-York Creative Academy, Ikoyi",
+  "type": "other",
+  "city": "Ikoyi",
+  "state": "Lagos",
+  "lat": 6.452343,
+  "lng": 3.428052
+ },
+ {
+  "name": "Dialogue Computer Institute, Kaduna Study Centre, U/Dosa",
+  "type": "other",
+  "city": "U/Dosa",
+  "state": "Kaduna",
+  "lat": 10.569021,
+  "lng": 7.452142
+ },
+ {
+  "name": "Dialogue Computer Institute Katsina Study Centre",
+  "type": "other",
+  "city": "Centre",
+  "state": "Katsina",
+  "lat": 12.897588,
+  "lng": 7.587575
+ },
+ {
+  "name": "Digital Bridge Institute",
+  "type": "other",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.592
+ },
+ {
+  "name": "Distinct Institute of Management and Technology, Osogbo",
+  "type": "other",
+  "city": "Osogbo",
+  "state": "Osun",
+  "lat": 7.758322,
+  "lng": 4.575045
+ },
+ {
+  "name": "Al-Hikma Polytechnic Karu",
+  "type": "polytechnic",
+  "city": "Karu",
+  "state": "Nasarawa",
+  "lat": 8.995008,
+  "lng": 7.751226
+ },
+ {
+  "name": "Allover Central Polytechnic, Sango Ota",
+  "type": "polytechnic",
+  "city": "Sango Ota",
+  "state": "Ogun",
+  "lat": 6.71304,
+  "lng": 3.246364
+ },
+ {
+  "name": "Ajayi Polytechnic, Ikere Ekiti",
+  "type": "polytechnic",
+  "city": "Ikere Ekiti",
+  "state": "Ekiti",
+  "lat": 7.492935,
+  "lng": 5.234597
+ },
+ {
+  "name": "Ashi Polytechnic, Anyiin",
+  "type": "polytechnic",
+  "city": "Anyiin",
+  "state": "Benue",
+  "lat": 7.7322,
+  "lng": 8.5391
+ },
+ {
+  "name": "Best Solution Polytechnic, Akure",
+  "type": "polytechnic",
+  "city": "Akure",
+  "state": "Ondo",
+  "lat": 7.25256,
+  "lng": 5.193265
+ },
+ {
+  "name": "Bellarks Polytechnic",
+  "type": "polytechnic",
+  "city": "Asaba",
+  "state": "Delta",
+  "lat": 6.1983,
+  "lng": 6.7318
+ },
+ {
+  "name": "Brainfill Polytechnic, Ikot Ekpene",
+  "type": "polytechnic",
+  "city": "Ikot Ekpene",
+  "state": "Akwa Ibom",
+  "lat": 5.181975,
+  "lng": 7.713218
+ },
+ {
+  "name": "British Transatlantic Polytechnic, Igoba, Akure",
+  "type": "polytechnic",
+  "city": "Akure",
+  "state": "Ondo",
+  "lat": 7.25256,
+  "lng": 5.193265
+ },
+ {
+  "name": "Bolmor Polytechnic, Dugbe, Ibadan",
+  "type": "polytechnic",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Calvary Polytechnic, Owa-Oyibu",
+  "type": "polytechnic",
+  "city": "Owa-Oyibu",
+  "state": "Delta",
+  "lat": 6.183727,
+  "lng": 6.198587
+ },
+ {
+  "name": "Citi Polytechnic, Dutse Alhaji",
+  "type": "polytechnic",
+  "city": "Dutse Alhaji",
+  "state": "FCT",
+  "lat": 9.141684,
+  "lng": 7.372619
+ },
+ {
+  "name": "Coastal Polytechnic Apapa Lagos",
+  "type": "polytechnic",
+  "city": "Lagos",
+  "state": "Lagos",
+  "lat": 6.455057,
+  "lng": 3.394179
+ },
+ {
+  "name": "Covenant Polytechnic, Abayi, Aba",
+  "type": "polytechnic",
+  "city": "Aba",
+  "state": "Abia",
+  "lat": 5.112801,
+  "lng": 7.365138
+ },
+ {
+  "name": "Crown Polytechnic, Ado-Ekiti",
+  "type": "polytechnic",
+  "city": "Ado-Ekiti",
+  "state": "Ekiti",
+  "lat": 7.623248,
+  "lng": 5.22274
+ },
+ {
+  "name": "Distinct Polytechnic Ekosin, Odo Otin",
+  "type": "polytechnic",
+  "city": "Odo Otin",
+  "state": "Osun",
+  "lat": 8.007444,
+  "lng": 4.679048
+ },
+ {
+  "name": "Dorben Polytechnic, Garki, Bwari, Abuja",
+  "type": "polytechnic",
+  "city": "Abuja",
+  "state": "FCT",
+  "lat": 9.064331,
+  "lng": 7.489297
+ },
+ {
+  "name": "Eastern Polytechnic Port Harcourt",
+  "type": "polytechnic",
+  "city": "Harcourt",
+  "state": "Rivers",
+  "lat": 4.767658,
+  "lng": 7.018853
+ },
+ {
+  "name": "Enville Polytechnic Ikeja, Ikeja, Lagos ; Owu-Iganke, Epe LGA",
+  "type": "polytechnic",
+  "city": "Epe LGA",
+  "state": "Lagos",
+  "lat": 6.6018,
+  "lng": 3.3515
+ },
+ {
+  "name": "Fidei Polytechnic, Gboko",
+  "type": "polytechnic",
+  "city": "Gboko",
+  "state": "Benue",
+  "lat": 7.377848,
+  "lng": 8.871322
+ },
+ {
+  "name": "Foundation Polytechnic, Ikot Idem, Ikot Ekpene",
+  "type": "polytechnic",
+  "city": "Ikot Ekpene",
+  "state": "Akwa Ibom",
+  "lat": 5.181975,
+  "lng": 7.713218
+ },
+ {
+  "name": "Gboko Polytechnic, Gboko, Gboko",
+  "type": "polytechnic",
+  "city": "Gboko",
+  "state": "Benue",
+  "lat": 7.377848,
+  "lng": 8.871322
+ },
+ {
+  "name": "Global Polytechnic, Akure",
+  "type": "polytechnic",
+  "city": "Akure",
+  "state": "Ondo",
+  "lat": 7.25256,
+  "lng": 5.193265
+ },
+ {
+  "name": "Gloryland Polytechnic, Ankpa",
+  "type": "polytechnic",
+  "city": "Ankpa",
+  "state": "Kogi",
+  "lat": 7.469318,
+  "lng": 7.619153
+ },
+ {
+  "name": "Grace Polytechnic, Surulere",
+  "type": "polytechnic",
+  "city": "Surulere",
+  "state": "Lagos",
+  "lat": 6.485574,
+  "lng": 3.353991
+ },
+ {
+  "name": "Graceland Polytechnic, Offa",
+  "type": "polytechnic",
+  "city": "Offa",
+  "state": "Kwara",
+  "lat": 8.156001,
+  "lng": 4.722743
+ },
+ {
+  "name": "Grundtvig Polytechnic, Oba",
+  "type": "polytechnic",
+  "city": "Oba",
+  "state": "Anambra",
+  "lat": 6.070069,
+  "lng": 6.840136
+ },
+ {
+  "name": "Harry Pass Polytechnic, Mkar Gboko",
+  "type": "polytechnic",
+  "city": "Mkar Gboko",
+  "state": "Benue",
+  "lat": 7.7322,
+  "lng": 8.5391
+ },
+ {
+  "name": "Harvard Polytechnic, Agbabiaka, Ilorin",
+  "type": "polytechnic",
+  "city": "Ilorin",
+  "state": "Kwara",
+  "lat": 8.496366,
+  "lng": 4.548048
+ },
+ {
+  "name": "Heritage Polytechnic, Ikot Udota, Eket",
+  "type": "polytechnic",
+  "city": "Eket",
+  "state": "Akwa Ibom",
+  "lat": 4.636007,
+  "lng": 7.957542
+ },
+ {
+  "name": "Hope Polytechnic, Ndon Utibe, Ediene Atai",
+  "type": "polytechnic",
+  "city": "Ediene Atai",
+  "state": "Akwa Ibom",
+  "lat": 5.0377,
+  "lng": 7.9128
+ },
+ {
+  "name": "Ibadan City Polytechnic, Ibadan",
+  "type": "polytechnic",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Ibom Metropolitan Polytechnic, Uyo",
+  "type": "polytechnic",
+  "city": "Uyo",
+  "state": "Akwa Ibom",
+  "lat": 4.990237,
+  "lng": 7.99744
+ },
+ {
+  "name": "I-CON Universal Polytechnic Osogbo",
+  "type": "polytechnic",
+  "city": "Osogbo",
+  "state": "Osun",
+  "lat": 7.758322,
+  "lng": 4.575045
+ },
+ {
+  "name": "Igbajo Polytechnic, Igbajo",
+  "type": "polytechnic",
+  "city": "Igbajo",
+  "state": "Osun",
+  "lat": 7.906721,
+  "lng": 4.811398
+ },
+ {
+  "name": "Ihechukwu Madubuike Institute of Technology, Isuochi",
+  "type": "polytechnic",
+  "city": "Isuochi",
+  "state": "Abia",
+  "lat": 5.990243,
+  "lng": 7.400918
+ },
+ {
+  "name": "Inspire Polytechnic, Egbeda",
+  "type": "polytechnic",
+  "city": "Egbeda",
+  "state": "Lagos",
+  "lat": 6.592848,
+  "lng": 3.287602
+ },
+ {
+  "name": "Iwo City Polytechnic, Iwo",
+  "type": "polytechnic",
+  "city": "Iwo",
+  "state": "Osun",
+  "lat": 7.633333,
+  "lng": 4.183333
+ },
+ {
+  "name": "Kalac Christal Polytechnic, Lekki",
+  "type": "polytechnic",
+  "city": "Lekki",
+  "state": "Lagos",
+  "lat": 6.471125,
+  "lng": 3.81475
+ },
+ {
+  "name": "Kanmi Alo Interlink Polytechnic, Ijebu-Jesa",
+  "type": "polytechnic",
+  "city": "Ijebu-Jesa",
+  "state": "Osun",
+  "lat": 7.7827,
+  "lng": 4.5418
+ },
+ {
+  "name": "Kings Polytechnic, Ubiaja",
+  "type": "polytechnic",
+  "city": "Ubiaja",
+  "state": "Edo",
+  "lat": 6.649646,
+  "lng": 6.38897
+ },
+ {
+  "name": "Landmark Polytechnic, Ota",
+  "type": "polytechnic",
+  "city": "Ota",
+  "state": "Ogun",
+  "lat": 6.624499,
+  "lng": 3.082251
+ },
+ {
+  "name": "Lagos City Polytechnic, Ikeja",
+  "type": "polytechnic",
+  "city": "Ikeja",
+  "state": "Lagos",
+  "lat": 6.597473,
+  "lng": 3.343281
+ },
+ {
+  "name": "Lens Polytechnic, Offa",
+  "type": "polytechnic",
+  "city": "Offa",
+  "state": "Kwara",
+  "lat": 8.156001,
+  "lng": 4.722743
+ },
+ {
+  "name": "Lighthouse Polytechnic, Benin City",
+  "type": "polytechnic",
+  "city": "Benin City",
+  "state": "Edo",
+  "lat": 6.333059,
+  "lng": 5.622106
+ },
+ {
+  "name": "Marist Polytechnic, Umuchigbo, Iji-Nike, Emene",
+  "type": "polytechnic",
+  "city": "Emene",
+  "state": "Enugu",
+  "lat": 6.477627,
+  "lng": 7.561004
+ },
+ {
+  "name": "Mater Dei Polytechnic, Ugwuoba Town, Oji River LGA",
+  "type": "polytechnic",
+  "city": "Oji River LGA",
+  "state": "Enugu",
+  "lat": 6.4584,
+  "lng": 7.5464
+ },
+ {
+  "name": "Nacabs Polytechnic, Akwanga",
+  "type": "polytechnic",
+  "city": "Akwanga",
+  "state": "Nasarawa",
+  "lat": 9.01527,
+  "lng": 8.340625
+ },
+ {
+  "name": "New Land Polytechnic, Idofian",
+  "type": "polytechnic",
+  "city": "Idofian",
+  "state": "Kwara",
+  "lat": 8.383333,
+  "lng": 4.716667
+ },
+ {
+  "name": "Nogak Polytechnic, Ikom",
+  "type": "polytechnic",
+  "city": "Ikom",
+  "state": "Rivers",
+  "lat": 4.8156,
+  "lng": 7.0498
+ },
+ {
+  "name": "Novelty Polytechnic Kishi, Kishi",
+  "type": "polytechnic",
+  "city": "Kishi",
+  "state": "Oyo",
+  "lat": 9.083333,
+  "lng": 3.85
+ },
+ {
+  "name": "Oduduwa Polytechnic, Idumu",
+  "type": "polytechnic",
+  "city": "Idumu",
+  "state": "Lagos",
+  "lat": 6.6018,
+  "lng": 3.3515
+ },
+ {
+  "name": "Our Saviour Institute of Science, Agriculture & Technology",
+  "type": "other",
+  "city": "Agriculture & Technology",
+  "state": "Enugu",
+  "lat": 6.4584,
+  "lng": 7.5464
+ },
+ {
+  "name": "Paramount Polytechnic, Ekigbo",
+  "type": "polytechnic",
+  "city": "Ekigbo",
+  "state": "Lagos",
+  "lat": 6.6018,
+  "lng": 3.3515
+ },
+ {
+  "name": "Prime Polytechnic, Jida Bassa, Ajaokuta",
+  "type": "polytechnic",
+  "city": "Ajaokuta",
+  "state": "Kogi",
+  "lat": 7.563997,
+  "lng": 6.629117
+ },
+ {
+  "name": "Redeemers College of Technology and Management (RECTEM), Mowe",
+  "type": "polytechnic",
+  "city": "Mowe",
+  "state": "Ogun",
+  "lat": 6.777763,
+  "lng": 3.420896
+ },
+ {
+  "name": "Ronik Polytechnic, Ejigbo, Ikeja",
+  "type": "polytechnic",
+  "city": "Ikeja",
+  "state": "Lagos",
+  "lat": 6.597473,
+  "lng": 3.343281
+ },
+ {
+  "name": "Saf Polytechnic, Iseyin",
+  "type": "polytechnic",
+  "city": "Iseyin",
+  "state": "Oyo",
+  "lat": 7.971011,
+  "lng": 3.595614
+ },
+ {
+  "name": "Savanah Institute of Technology, Abakaliki",
+  "type": "polytechnic",
+  "city": "Abakaliki",
+  "state": "Ebonyi",
+  "lat": 6.32089,
+  "lng": 8.11332
+ },
+ {
+  "name": "Shaka Polytechnic, Benin City",
+  "type": "polytechnic",
+  "city": "Benin City",
+  "state": "Edo",
+  "lat": 6.333059,
+  "lng": 5.622106
+ },
+ {
+  "name": "Speedway Polytechnic, Osoba Ojudu",
+  "type": "polytechnic",
+  "city": "Osoba Ojudu",
+  "state": "Ogun",
+  "lat": 7.1475,
+  "lng": 3.3619
+ },
+ {
+  "name": "St. Mary Polytechnic, Kwamba, Suleja",
+  "type": "polytechnic",
+  "city": "Suleja",
+  "state": "Niger",
+  "lat": 9.208166,
+  "lng": 7.18719
+ },
+ {
+  "name": "Stars Polytechnic, Ota LGA",
+  "type": "polytechnic",
+  "city": "Ota LGA",
+  "state": "Ogun",
+  "lat": 7.1475,
+  "lng": 3.3619
+ },
+ {
+  "name": "Southern Atlantic Polytechnic",
+  "type": "polytechnic",
+  "city": "Uyo",
+  "state": "Akwa Ibom",
+  "lat": 5.0377,
+  "lng": 7.9128
+ },
+ {
+  "name": "Sure Foundation Polytechnic, Ikot Akai",
+  "type": "polytechnic",
+  "city": "Ikot Akai",
+  "state": "Akwa Ibom",
+  "lat": 5.0377,
+  "lng": 7.9128
+ },
+ {
+  "name": "Teedek Polytechnic, Ilogbo-Ekiti",
+  "type": "polytechnic",
+  "city": "Ilogbo-Ekiti",
+  "state": "Ekiti",
+  "lat": 7.861214,
+  "lng": 5.153705
+ },
+ {
+  "name": "Temple Gate Polytechnic, Abayi, Osisioma, Aba",
+  "type": "polytechnic",
+  "city": "Aba",
+  "state": "Abia",
+  "lat": 5.112801,
+  "lng": 7.365138
+ },
+ {
+  "name": "The Polytechnic Aran-Orin, Otun-Ekili Road, Aran-Orin",
+  "type": "polytechnic",
+  "city": "Aran-Orin",
+  "state": "Kwara",
+  "lat": 8.083341,
+  "lng": 5.066659
+ },
+ {
+  "name": "The Polytechnic, Igbo-Owu",
+  "type": "polytechnic",
+  "city": "Igbo-Owu",
+  "state": "Kwara",
+  "lat": 8.383333,
+  "lng": 4.766667
+ },
+ {
+  "name": "The Polytechnic, Ile Ife",
+  "type": "polytechnic",
+  "city": "Ile Ife",
+  "state": "Osun",
+  "lat": 7.482824,
+  "lng": 4.560445
+ },
+ {
+  "name": "The Polytechnic Iresi",
+  "type": "polytechnic",
+  "city": "Iresi",
+  "state": "Osun",
+  "lat": 7.935856,
+  "lng": 4.843445
+ },
+ {
+  "name": "The Polytechnic Ojoku",
+  "type": "polytechnic",
+  "city": "Ojoku",
+  "state": "Kwara",
+  "lat": 8.252773,
+  "lng": 4.657997
+ },
+ {
+  "name": "The Polytechnic, Omuo-Ekiti",
+  "type": "polytechnic",
+  "city": "Omuo-Ekiti",
+  "state": "Ekiti",
+  "lat": 7.757678,
+  "lng": 5.721519
+ },
+ {
+  "name": "The Polytechnic Otada Adoka",
+  "type": "polytechnic",
+  "city": "Adoka",
+  "state": "Benue",
+  "lat": 7.453699,
+  "lng": 7.978458
+ },
+ {
+  "name": "Timeon Kairos Polytechnic Lagos, Abule Egba Lagos",
+  "type": "polytechnic",
+  "city": "Abule Egba Lagos",
+  "state": "Lagos",
+  "lat": 6.647894,
+  "lng": 3.304622
+ },
+ {
+  "name": "Tower Polytechnic, Ibadan, Dugbe, Ibadan",
+  "type": "polytechnic",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Trinity Polytechnic Uyo",
+  "type": "polytechnic",
+  "city": "Uyo",
+  "state": "Akwa Ibom",
+  "lat": 4.990237,
+  "lng": 7.99744
+ },
+ {
+  "name": "Ultra Excellence College of Tech Uyo",
+  "type": "other",
+  "city": "Uyo",
+  "state": "Akwa Ibom",
+  "lat": 4.990237,
+  "lng": 7.99744
+ },
+ {
+  "name": "United Polytechnic Gamajigo, Jos",
+  "type": "polytechnic",
+  "city": "Jos",
+  "state": "Plateau",
+  "lat": 9.917513,
+  "lng": 8.89794
+ },
+ {
+  "name": "Uma Ukpai Polytechnic, Asaga Ohafia",
+  "type": "polytechnic",
+  "city": "Asaga Ohafia",
+  "state": "Abia",
+  "lat": 5.5265,
+  "lng": 7.4906
+ },
+ {
+  "name": "Uyo City Polytechnic, Uyo",
+  "type": "polytechnic",
+  "city": "Uyo",
+  "state": "Akwa Ibom",
+  "lat": 4.990237,
+  "lng": 7.99744
+ },
+ {
+  "name": "Valley View Polytechnic, Ohafia",
+  "type": "polytechnic",
+  "city": "Ohafia",
+  "state": "Abia",
+  "lat": 5.662915,
+  "lng": 7.832489
+ },
+ {
+  "name": "Villanova Polytechnic, Imesi-Ile",
+  "type": "polytechnic",
+  "city": "Imesi-Ile",
+  "state": "Osun",
+  "lat": 7.833333,
+  "lng": 4.833333
+ },
+ {
+  "name": "West Land Polytechnic, Ilobu",
+  "type": "polytechnic",
+  "city": "Ilobu",
+  "state": "Osun",
+  "lat": 7.840847,
+  "lng": 4.485373
+ },
+ {
+  "name": "Wolex Polytechnic, Iwo",
+  "type": "polytechnic",
+  "city": "Iwo",
+  "state": "Osun",
+  "lat": 7.633333,
+  "lng": 4.183333
+ },
+ {
+  "name": "Al-MaÃ¡rif College of Health Sciences & Technology Potiskum",
+  "type": "college_of_health",
+  "city": "Potiskum",
+  "state": "Yobe",
+  "lat": 11.712255,
+  "lng": 11.076274
+ },
+ {
+  "name": "Aminu Dabo College of Health Sciences & Technology",
+  "type": "college_of_health",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.592
+ },
+ {
+  "name": "Babalola Academy College of Health Technology, Asa-Dam Area Ilorin",
+  "type": "college_of_health",
+  "city": "Asa-Dam Area Ilorin",
+  "state": "Kwara",
+  "lat": 8.460066,
+  "lng": 4.524898
+ },
+ {
+  "name": "Bartholomew College of Health Technology Shao",
+  "type": "college_of_health",
+  "city": "Shao",
+  "state": "Kwara",
+  "lat": 8.537259,
+  "lng": 4.544431
+ },
+ {
+  "name": "College of Health and Technology, Ile-Ife",
+  "type": "college_of_health",
+  "city": "Ile-Ife",
+  "state": "Osun",
+  "lat": 7.482824,
+  "lng": 4.560445
+ },
+ {
+  "name": "Dagamas College of Health Science and Technology, Sabon Gari Zaria",
+  "type": "college_of_health",
+  "city": "Sabon Gari Zaria",
+  "state": "Kaduna",
+  "lat": 11.108486,
+  "lng": 7.731291
+ },
+ {
+  "name": "De-Potter College of Health Technology Oru, Ijebu-Igbo Road",
+  "type": "college_of_health",
+  "city": "Ijebu-Igbo Road",
+  "state": "Ogun",
+  "lat": 7.1475,
+  "lng": 3.3619
+ },
+ {
+  "name": "Emirates College of Health Science and Technology",
+  "type": "college_of_health",
+  "city": "Kano",
+  "state": "Kano",
+  "lat": 12.0022,
+  "lng": 8.592
+ },
+ {
+  "name": "Ezzangbo College of Health Technology",
+  "type": "college_of_health",
+  "city": "Abakaliki",
+  "state": "Ebonyi",
+  "lat": 6.3249,
+  "lng": 8.1137
+ },
+ {
+  "name": "Ezeala College of Nursing Science, Umuseke Njaba LGA",
+  "type": "college_of_health",
+  "city": "Umuseke Njaba LGA",
+  "state": "Imo",
+  "lat": 5.4836,
+  "lng": 7.0333
+ },
+ {
+  "name": "Eucaristic Heart College of Health Technology, Orba, Nsukka",
+  "type": "college_of_health",
+  "city": "Nsukka",
+  "state": "Enugu",
+  "lat": 6.8561,
+  "lng": 7.3927
+ },
+ {
+  "name": "Fabotas College of Health Science and Technology, Ado Ekiti",
+  "type": "college_of_health",
+  "city": "Ado Ekiti",
+  "state": "Ekiti",
+  "lat": 7.623248,
+  "lng": 5.22274
+ },
+ {
+  "name": "Malikiya College of Health and Social Sciences, Old GRA",
+  "type": "college_of_health",
+  "city": "Old GRA",
+  "state": "Bauchi",
+  "lat": 10.3158,
+  "lng": 9.8442
+ },
+ {
+  "name": "Millenium College of Health Technology, Akure",
+  "type": "college_of_health",
+  "city": "Akure",
+  "state": "Ondo",
+  "lat": 7.25256,
+  "lng": 5.193265
+ },
+ {
+  "name": "New Gate College of Health Science & Technology, Minna",
+  "type": "college_of_health",
+  "city": "Minna",
+  "state": "Niger",
+  "lat": 9.618709,
+  "lng": 6.547575
+ },
+ {
+  "name": "NKST College of Health Technology, Mkar, Gboko",
+  "type": "college_of_health",
+  "city": "Gboko",
+  "state": "Benue",
+  "lat": 7.377848,
+  "lng": 8.871322
+ },
+ {
+  "name": "Ondo College of Health Science and Technology",
+  "type": "college_of_health",
+  "city": "Akure",
+  "state": "Ondo",
+  "lat": 7.2571,
+  "lng": 5.2058
+ },
+ {
+  "name": "Peaceland College of Health Sciences and Technology",
+  "type": "college_of_health",
+  "city": "Enugu",
+  "state": "Enugu",
+  "lat": 6.4584,
+  "lng": 7.5464
+ },
+ {
+  "name": "Pogil College Of Health Technology, Oke-Eri, Ijebu-Ode",
+  "type": "college_of_health",
+  "city": "Ijebu-Ode",
+  "state": "Ogun",
+  "lat": 6.814008,
+  "lng": 3.915167
+ },
+ {
+  "name": "Ambassador College, Festac Lagos",
+  "type": "technical",
+  "city": "Festac Lagos",
+  "state": "Lagos",
+  "lat": 6.468273,
+  "lng": 3.283937
+ },
+ {
+  "name": "Idogbo Educational Cente",
+  "type": "technical",
+  "city": "Cente",
+  "state": "Nasarawa",
+  "lat": 8.4939,
+  "lng": 8.5227
+ },
+ {
+  "name": "Achievers University, Owo",
+  "type": "university",
+  "city": "Owo",
+  "state": "Ondo",
+  "lat": 7.196201,
+  "lng": 5.586802
+ },
+ {
+  "name": "Adekunle Ajasin University, Akungba",
+  "type": "university",
+  "city": "Akungba",
+  "state": "Ondo",
+  "lat": 7.4696,
+  "lng": 5.736199
+ },
+ {
+  "name": "Adeleke University, Ede",
+  "type": "university",
+  "city": "Ede",
+  "state": "Osun",
+  "lat": 7.733333,
+  "lng": 4.433333
+ },
+ {
+  "name": "Ahmadu Bello University, Zaria",
+  "type": "university",
+  "city": "Zaria",
+  "state": "Kaduna",
+  "lat": 11.024812,
+  "lng": 7.651853
+ },
+ {
+  "name": "Ajayi Crowther University, Ibadan",
+  "type": "university",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Al-Hikmah University, Ilorin",
+  "type": "university",
+  "city": "Ilorin",
+  "state": "Kwara",
+  "lat": 8.496366,
+  "lng": 4.548048
+ },
+ {
+  "name": "Ambrose Alli University, Ekpoma",
+  "type": "university",
+  "city": "Ekpoma",
+  "state": "Edo",
+  "lat": 6.742063,
+  "lng": 6.139003
+ },
+ {
+  "name": "American University of Nigeria, Yola",
+  "type": "university",
+  "city": "Yola",
+  "state": "Adamawa",
+  "lat": 9.208925,
+  "lng": 12.480249
+ },
+ {
+  "name": "Bells University of Technology, Otta",
+  "type": "university",
+  "city": "Otta",
+  "state": "Ogun",
+  "lat": 6.726015,
+  "lng": 3.9997
+ },
+ {
+  "name": "Benson Idahosa University, Benin City",
+  "type": "university",
+  "city": "Benin City",
+  "state": "Edo",
+  "lat": 6.333059,
+  "lng": 5.622106
+ },
+ {
+  "name": "Bingham University, New Karu",
+  "type": "university",
+  "city": "New Karu",
+  "state": "Nasarawa",
+  "lat": 9.033999,
+  "lng": 7.60612
+ },
+ {
+  "name": "Bornu State University, Maiduguri",
+  "type": "university",
+  "city": "Maiduguri",
+  "state": "Borno",
+  "lat": 11.839538,
+  "lng": 13.153621
+ },
+ {
+  "name": "Bowen University, Iwo",
+  "type": "university",
+  "city": "Iwo",
+  "state": "Osun",
+  "lat": 7.633333,
+  "lng": 4.183333
+ },
+ {
+  "name": "Christopher University Mowe",
+  "type": "university",
+  "city": "Mowe",
+  "state": "Ogun",
+  "lat": 6.777763,
+  "lng": 3.420896
+ },
+ {
+  "name": "Chukwuemeka Odumegwu Ojukwu University, Uli",
+  "type": "university",
+  "city": "Uli",
+  "state": "Anambra",
+  "lat": 5.783333,
+  "lng": 6.866667
+ },
+ {
+  "name": "Covenant University Ota",
+  "type": "university",
+  "city": "Ota",
+  "state": "Osun",
+  "lat": 7.95,
+  "lng": 4.8
+ },
+ {
+  "name": "Crawford University Igbesa",
+  "type": "university",
+  "city": "Igbesa",
+  "state": "Lagos",
+  "lat": 6.510437,
+  "lng": 3.33906
+ },
+ {
+  "name": "David Nweze Umahi Federal University of Medical Sciences, Uburu",
+  "type": "university",
+  "city": "Uburu",
+  "state": "Ebonyi",
+  "lat": 6.044504,
+  "lng": 7.769205
+ },
+ {
+  "name": "Dennis Osadebe University, Asaba",
+  "type": "university",
+  "city": "Asaba",
+  "state": "Delta",
+  "lat": 6.185882,
+  "lng": 6.729707
+ },
+ {
+  "name": "Elizade University, Ilara-Mokin",
+  "type": "university",
+  "city": "Ilara-Mokin",
+  "state": "Ondo",
+  "lat": 7.349682,
+  "lng": 5.113192
+ },
+ {
+  "name": "Federal University of Petroleum Resources, Effurun",
+  "type": "university",
+  "city": "Effurun",
+  "state": "Delta",
+  "lat": 5.555501,
+  "lng": 5.78501
+ },
+ {
+  "name": "First Technical University Ibadan",
+  "type": "university",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Fountain Unveristy, Oshogbo",
+  "type": "university",
+  "city": "Oshogbo",
+  "state": "Osun",
+  "lat": 7.779167,
+  "lng": 4.553889
+ },
+ {
+  "name": "Gregory University, Uturu",
+  "type": "university",
+  "city": "Uturu",
+  "state": "Abia",
+  "lat": 5.826547,
+  "lng": 7.42399
+ },
+ {
+  "name": "Hezekiah University, Umudi",
+  "type": "university",
+  "city": "Umudi",
+  "state": "Imo",
+  "lat": 5.75817,
+  "lng": 7.142061
+ },
+ {
+  "name": "Ibrahim Badamasi Babangida University, Lapai",
+  "type": "university",
+  "city": "Lapai",
+  "state": "Niger",
+  "lat": 8.781127,
+  "lng": 6.675381
+ },
+ {
+  "name": "Igbinedion University Okada",
+  "type": "university",
+  "city": "Okada",
+  "state": "Edo",
+  "lat": 6.732728,
+  "lng": 5.389892
+ },
+ {
+  "name": "Joseph Sarwuan Tarka University, Makurdi",
+  "type": "university",
+  "city": "Makurdi",
+  "state": "Benue",
+  "lat": 7.731263,
+  "lng": 8.538425
+ },
+ {
+  "name": "Kings University, Ode Omu",
+  "type": "university",
+  "city": "Ode Omu",
+  "state": "Osun",
+  "lat": 7.533326,
+  "lng": 4.400001
+ },
+ {
+  "name": "Kwararafa University, Wukari",
+  "type": "university",
+  "city": "Wukari",
+  "state": "Taraba",
+  "lat": 7.87052,
+  "lng": 9.777552
+ },
+ {
+  "name": "Ladoke Akintola University of Technology, Ogbomoso",
+  "type": "university",
+  "city": "Ogbomoso",
+  "state": "Oyo",
+  "lat": 8.133,
+  "lng": 4.25
+ },
+ {
+  "name": "Landmark University, Omu-Aran",
+  "type": "university",
+  "city": "Omu-Aran",
+  "state": "Kwara",
+  "lat": 8.13859,
+  "lng": 5.101326
+ },
+ {
+  "name": "Lead City University, Ibadan",
+  "type": "university",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Madonna University, Okija",
+  "type": "university",
+  "city": "Okija",
+  "state": "Anambra",
+  "lat": 5.9,
+  "lng": 6.833333
+ },
+ {
+  "name": "Mcpherson University, Seriki Sotayo, Ajebo",
+  "type": "university",
+  "city": "Ajebo",
+  "state": "Lagos",
+  "lat": 6.533621,
+  "lng": 3.530554
+ },
+ {
+  "name": "Michael Okpara University of Agricultural Umudike",
+  "type": "university",
+  "city": "Umudike",
+  "state": "Abia",
+  "lat": 5.5,
+  "lng": 7.533333
+ },
+ {
+  "name": "Modibbo Adama University of Technology, Yola",
+  "type": "university",
+  "city": "Yola",
+  "state": "Adamawa",
+  "lat": 9.208925,
+  "lng": 12.480249
+ },
+ {
+  "name": "Moshood Abiola University of Science and Technology Abeokuta",
+  "type": "university",
+  "city": "Abeokuta",
+  "state": "Ogun",
+  "lat": 7.161,
+  "lng": 3.348
+ },
+ {
+  "name": "Nigeria Police Academy Wudil",
+  "type": "university",
+  "city": "Wudil",
+  "state": "Kano",
+  "lat": 11.76688,
+  "lng": 8.839015
+ },
+ {
+  "name": "Nigerian Army University Biu",
+  "type": "university",
+  "city": "Biu",
+  "state": "Borno",
+  "lat": 10.61461,
+  "lng": 12.190961
+ },
+ {
+  "name": "Nnamdi Azikiwe University, Awka",
+  "type": "university",
+  "city": "Awka",
+  "state": "Anambra",
+  "lat": 6.218947,
+  "lng": 7.077437
+ },
+ {
+  "name": "Novena University, Ogume",
+  "type": "university",
+  "city": "Ogume",
+  "state": "Kogi",
+  "lat": 7.47317,
+  "lng": 7.248976
+ },
+ {
+  "name": "Obafemi Awolowo University, Ile-Ife",
+  "type": "university",
+  "city": "Ile-Ife",
+  "state": "Osun",
+  "lat": 7.482824,
+  "lng": 4.560445
+ },
+ {
+  "name": "Olabisi Onabanjo University, Ago Iwoye",
+  "type": "university",
+  "city": "Ago Iwoye",
+  "state": "Ogun",
+  "lat": 6.938794,
+  "lng": 3.919413
+ },
+ {
+  "name": "PAMO University of Medical Sciences, Portharcourt",
+  "type": "university",
+  "city": "Portharcourt",
+  "state": "Enugu",
+  "lat": 6.427478,
+  "lng": 7.537746
+ },
+ {
+  "name": "Redeemer's University, Ede",
+  "type": "university",
+  "city": "Ede",
+  "state": "Osun",
+  "lat": 7.733333,
+  "lng": 4.433333
+ },
+ {
+  "name": "Salem University, Lokoja",
+  "type": "university",
+  "city": "Lokoja",
+  "state": "Kogi",
+  "lat": 7.802355,
+  "lng": 6.743033
+ },
+ {
+  "name": "Samuel Adegboyega University, Ogwa",
+  "type": "university",
+  "city": "Ogwa",
+  "state": "Imo",
+  "lat": 5.65,
+  "lng": 7.083333
+ },
+ {
+  "name": "Summit University, Offa",
+  "type": "university",
+  "city": "Offa",
+  "state": "Kwara",
+  "lat": 8.156001,
+  "lng": 4.722743
+ },
+ {
+  "name": "Tai Solarin University of Education Ijebu Ode",
+  "type": "university",
+  "city": "Ode",
+  "state": "Ekiti",
+  "lat": 7.7899,
+  "lng": 5.7117
+ },
+ {
+  "name": "Tansian University, Umunya",
+  "type": "university",
+  "city": "Umunya",
+  "state": "Lagos",
+  "lat": 6.512843,
+  "lng": 3.307372
+ },
+ {
+  "name": "Federal College of Veterinary and Medical Laboratory Technology, Vom",
+  "type": "other",
+  "city": "Vom",
+  "state": "Plateau",
+  "lat": 9.666609,
+  "lng": 8.733342
+ },
+ {
+  "name": "National Institute of Construction Technology Uromi",
+  "type": "other",
+  "city": "Uromi",
+  "state": "Edo",
+  "lat": 6.708653,
+  "lng": 6.329668
+ },
+ {
+  "name": "Nigerian Army Institute of Technology and Environmental Science (NAITES) Makurdi",
+  "type": "polytechnic",
+  "city": "Makurdi",
+  "state": "Benue",
+  "lat": 7.731263,
+  "lng": 8.538425
+ },
+ {
+  "name": "Central Institute of Business and Technology, Egba, Benin City",
+  "type": "other",
+  "city": "Benin City",
+  "state": "Edo",
+  "lat": 6.333059,
+  "lng": 5.622106
+ },
+ {
+  "name": "College of Banking and Finance, Ibadan",
+  "type": "other",
+  "city": "Ibadan",
+  "state": "Oyo",
+  "lat": 7.378606,
+  "lng": 3.896993
+ },
+ {
+  "name": "Dagama College of Applied Science Chikaji Road, MTD Sabon Gari Zaria",
+  "type": "other",
+  "city": "Zaria",
+  "state": "Kaduna",
+  "lat": 11.024812,
+  "lng": 7.651853
+ },
+ {
+  "name": "Centinery College of Health Technology, Emohua, Port Harcourt",
+  "type": "college_of_health",
+  "city": "Port Harcourt",
+  "state": "Rivers",
+  "lat": 4.767658,
+  "lng": 7.018853
+ },
+ {
+  "name": "Nazareth Institute of Health Science & Technology, Makurdi",
+  "type": "college_of_health",
+  "city": "Makurdi",
+  "state": "Benue",
+  "lat": 7.731263,
+  "lng": 8.538425
+ }
+]
