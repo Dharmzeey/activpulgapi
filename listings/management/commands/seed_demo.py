@@ -6,7 +6,7 @@ Usage:
   manage.py seed_demo           # creates demo data (skips if present)
   manage.py seed_demo --fresh   # wipes previous demo data first
 
-All demo users share the password below and use @demo.campscrow.ng emails.
+All demo users share the password below and use @demo.activplug.ng emails.
 """
 
 import random
@@ -24,7 +24,7 @@ from listings.models import Category, Favorite, Listing, ListingImage
 from stores.models import Store
 
 PASSWORD = "demo-pass-123"
-DOMAIN = "demo.campscrow.ng"
+DOMAIN = "demo.activplug.ng"
 
 random.seed(20260713)
 
@@ -151,7 +151,7 @@ def make_image(title, size=(800, 600)):
     )
     text = title[:28]
     draw.text((40, size[1] // 3 + 40), text, fill=dark, font_size=40)
-    draw.text((40, 40), "campscrow demo", fill=light, font_size=24)
+    draw.text((40, 40), "activplug demo", fill=light, font_size=24)
     buffer = BytesIO()
     img.save(buffer, format="JPEG", quality=80)
     return ContentFile(
