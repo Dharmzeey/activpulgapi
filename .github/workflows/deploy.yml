@@ -1,0 +1,59 @@
+name: CI/CD Pipeline with GHCR
+
+on:
+  push:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build & Push Docker Images
+        run: |
+          REPO="ghcr.io/${GITHUB_REPOSITORY,,}"
+          SHA_TAG="${GITHUB_SHA::7}"     # short git commit SHA
+          BUILD_TAG="build-${GITHUB_RUN_NUMBER}" # CI build number
+
+          # Tags
+          IMAGE_LATEST="$REPO:latest"
+          IMAGE_SHA="$REPO:$SHA_TAG"
+          IMAGE_BUILD="$REPO:$BUILD_TAG"
+
+          echo "IMAGE_LATEST=$IMAGE_LATEST" >> $GITHUB_ENV
+          echo "IMAGE_SHA=$IMAGE_SHA" >> $GITHUB_ENV
+          echo "IMAGE_BUILD=$IMAGE_BUILD" >> $GITHUB_ENV
+
+          # Build and push all tags
+          docker build -t $IMAGE_LATEST -t $IMAGE_SHA -t $IMAGE_BUILD .
+          docker push $IMAGE_LATEST
+          docker push $IMAGE_SHA
+          docker push $IMAGE_BUILD
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: SSH into VPS & Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            cd ~/activplug/backend
+            docker compose pull activplug_backend
+            docker compose up activplug_backend -d
+            docker image prune -f -a

@@ -18,6 +18,8 @@ env = environ.Env(
     DEBUG=(bool, False),
     ALLOWED_HOSTS=(list, []),
     CORS_ALLOWED_ORIGINS=(list, []),
+    CSRF_TRUSTED_ORIGINS=(list, []),
+    SECRET_KEY=(str, "django-insecure-CHANGE_ME"),
 )
 environ.Env.read_env(BASE_DIR / ".env")
 
@@ -40,9 +42,9 @@ INSTALLED_APPS = [
     "corsheaders",
     "django_filters",
     # local
-    "accounts",
-    "listings",
-    "stores",
+    "accounts.apps.AccountsConfig",
+    "listings.apps.ListingsConfig",
+    "stores.apps.StoresConfig",
 ]
 
 MIDDLEWARE = [
@@ -74,13 +76,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "activplug.wsgi.application"
-
-
-# Database
-
-DATABASES = {
-    "default": env.db_url("DATABASE_URL", default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}"),
-}
 
 
 # Auth
